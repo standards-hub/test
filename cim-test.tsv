@@ -1,0 +1,4 @@
+Entity Developer Name	Entity Id	Attribute Id	Attribute Category	Attribute Developer Name	Attribute Display Name	Attribute Description	Data Type	Referenced Entity	Required	Status	Type	Attribute Sort Order	Entity Sort Order	GUID
+GlobalParty	a7BB000000001x5	a76B00000004EZo	Basic	Id	Global Party Id	Used to identify a set of parties that are functionally the same in the system	Text - Primary Key		TRUE	Approved	Canonical	10		 5a4578d3-9f6e-3d19-a5b9-e3f33a863453
+GlobalParty	a7BB000000001x5	a76B00000000IWA	System	CreatedDate	Created Date	Date and time when this record was created	Date - Time		TRUE	Approved	Canonical	20		 e3cb4d8d-3e28-3223-9e7d-71f66e2aab83
+GlobalParty	a7BB000000001x5	a76B00000000ISU	System	CreatedById	Created By	User who created the record	Text - Reference - Id (lookup)	User	TRUE	Approved	Canonical	30		 8c6634cd-e6a9-4666-8686-e6b6b1b3e8c6
