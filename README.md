@@ -1,22 +1,99 @@
 
 # LwM2M Registry
-This is a public repository dedicated to store and register new LwM2M Objects. See our wiki **[LwM2M wiki](https://github.com/OpenMobileAlliance/lwm2m-registry/wiki)**.
+This public repository is dedicated to store and register new LwM2M Objects and Reusable Resources.
   
 # Registration Process  
 
 ![image](https://user-images.githubusercontent.com/3258579/49321895-7e517a80-f4bf-11e8-9337-9ff1fd027432.png)
 
-1. Create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before submitting your ```Objects``` or ```Reusable Resources``` for Registration.
+## 1. Create an Issue
+* Create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before registering your ```Objects``` or ```Reusable Resources```
+* In the Issue indicate what you would like to do:
+  1. Create Version 1.0 of a new Object
+  2. Create a new Version X.Y of an existing Object
+  3. Create one or more Reusable Resources
 
-2. OMNA staff will validate the submission. If it failed, the submitter will be notified.
+## 2. New branch created by the Maintainer
+* Based on the information provided the Maintainer will:
+  * Create a new `topic` or `feature-branch` to apply the changes
+    * **Branch Name**: `ObjID_companyName`
+  * Reserve one or more Objects ID or/and Reusable Resources ID based on the Issue
+
+## 3. Create the new or revised Object(s)
+* You can create the new Object using the **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** 
+  * **[Guidelines](https://github.com/OpenMobileAlliance/lwm2m-registry/wiki/Guidelines)** & **[Best Practice](https://wiki.openmobilealliance.org/display/TOOL/LwM2M+Best+Practice)**
+
+## 4. Create a Pull Request against the provided branch
+* Your Pull Request needs to have these components:
+  * **Update the `DDF.xml` file**
+    * The `DDF.xml` file contains all the Objects in the Registry. Therefore, each time that a new Object is added  the `DDF.xml` file must be updated with a new Object placeholder.
+    
+```xml
+   Example of an Object placeholder for Object ID = 0, version 1.0
+
+    <Item>        
+        <ObjectID>0</ObjectID>
+        <!-- Integer, this number is allocated by the Maintainer -->
+        <!-- ObjecID also called ObjID-->
+      
+        <URN>urn:oma:lwm2m:oma:0</URN>
+        <!-- URN of the object 
+             for other versions than v1.0 the URN mus include the version, e.g., for v1.1 the URN is urn:oma:lwm2m:oma:0:1.1 -->
+        <Name>LWM2M Security</Name>
+        <!-- Name of the object -->
+      
+        <Description>Object description</Description>
+        <!-- Description of the Object -->
+      
+        <Owner>Test WG</Owner>
+        <!-- Name of the organization that has registered the object -->
+      
+        <Source>0</Source>
+        <!-- Type of Object: 
+             0 = defined by OMA, 
+             1 = defined by external Standards Development Organizations, 
+             2 = private or individual -->
+      
+        <Ver>1.0</Ver>
+        <!-- Version of the object -->
+      
+        <DDF>version_history/0-1_0.xml</DDF>
+        <!-- URL to the xml file describing the object 
+         latest version the filename is stored in the root as ObjID.xml
+         Previous versions the filea are stored in the version_history folder as ObjID-X_Y.xml, were X.Y is the Object Version.-->
+      
+        <Vorto></Vorto>
+        <!-- VOID- Link that opens the Object in the Vorto environment -->
+      
+        <DDFLink>1</DDFLink>
+        <!-- 0 => if link to object should not be visible, 
+             1 => if object should be visible (default) -->
+      
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <!-- URL to the TS of the object, not visible, not used -->
+        
+        <TSLink>1</TSLink>
+        <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
+    </Item>
+ ```
+ 
+  * **Update or Upload a new `ObjID.xml` file to the branch
+    * If you are creating a the first version of an Object, version 1.0, you must upload a fully qualify `ObjID.xml` file
+    * If you are creating a revision of an existing Object, e.g. version 1.1 of and existing Object ID `0.xml`, then you can modify directly the existing Object in the root of the branch
+    
+  * **Upload a new `ObjID-X_Y.xml` file to the `version_history` folder
+    * Each Object version, must have a file in the `version_history` folder. 
+    * The name of the file is e.g., for Object ID 0, Version 1.1, the filename is `0-1_1.xml`
+
+  * **Update the `Common.xml` file if adding new Reusable Resources**
+    * If the request is to add one or more Reusable Resources, then for each Reusable Resource a new placeholder must be added to the `Common.xml` file
+
+  ```xml
+    Example of Reusable Resource placeholder
+
+  ```
    
-   > Note: Submissions of ```PRs``` that are not linked to an open Issue will be rejected.
-   
-3. If the Issue is accepted the OMNA staff will create a new branch, in this repository, where the user can submit new ```Object(s)``` | ```Reusable Resource(s)```.
-   
-   > Note: The staff will send a notification indicating that the new topic branch is ready.
-   
-4. To create successful ```Object(s)``` | ```Reusable Resource(s)``` use the provided **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** and follow the **[Guidelines](https://github.com/OpenMobileAlliance/lwm2m-registry/wiki/Guidelines)** & **[Best Practice](https://wiki.openmobilealliance.org/display/TOOL/LwM2M+Best+Practice)**.   
+4. To create successful ```Object(s)``` | ```Reusable Resource(s)``` use the provided **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** and follow the .   
    
 5. Submit your ```Pull Request(s),(PRs)```, containing your ```Object(s)``` | ```Reusable Resource(s)``` registrations against the allocated branch - See **[Object PR submission guidelines](https://wiki.openmobilealliance.org/display/TOOL/Pull+Request+Object+submission)**.
     > Note: The OMA staff will [close]() any ```PR(s)``` submitted against the incorrect branch. 
