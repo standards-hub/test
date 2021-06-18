@@ -27,8 +27,8 @@ This public repository is dedicated to store and register new LwM2M Objects and 
 * Please follow these steps carefully:
 
 ### 4.1 Update the `DDF.xml` file
- * If the submission contains a new Object the `DDF.xml` file must be updated
- * The `DDF.xml` file contains all the Objects in the Registry. Therefore, each time that a new Object is added  the `DDF.xml` file must be updated with a new Object placeholder.
+* If the submission contains a new Object the `DDF.xml` file must be updated
+* The `DDF.xml` file contains all the Objects in the Registry. Therefore, each time that a new Object is added  the `DDF.xml` file must be updated with a new Object placeholder.
   
 **Example of a placeholder in the `DDF.xml` file for e.g., Object ID = 0, version 1.0**  
 
@@ -81,18 +81,18 @@ This public repository is dedicated to store and register new LwM2M Objects and 
  ```
  
 ### 4.2 Update or create a new `ObjID.xml` file
-    * In this step, if you are creating:
-      * A first version of an Object, version 1.0, then you must add a fully qualified `ObjID.xml` file to the allocated branch
-      * A revision of an existing Object, e.g. version 1.1 of Object ID `0.xml`, then you can modify directly the existing Object on the root of the allocated branch. But later you will have to add the new revision of the Object to the `history_folder`, see next step.
+* In this step, if you are creating:
+  * A first version of an Object, version 1.0, then you must add a fully qualified `ObjID.xml` file to the allocated branch
+  * A revision of an existing Object, e.g. version 1.1 of Object ID `0.xml`, then you can modify directly the existing Object on the root of the allocated branch. But later you will have to add the new revision of the Object to the `history_folder`, see next step.
     
 ### 4.3 Add a new `ObjID-X_Y.xml` file to the `version_history` folder
-    * Each Object version, must have a file in the `version_history` folder
-    * The name of the file for e.g., for Object ID 0, Version 1.1, is `0-1_1.xml`
-       * The content of the `0-1_1.xml` file is the same as conten of the file `0.xml` for version 1.1
-          * IPSO keeps in the `version_history` folder a file for each Object in the registry, the file name indicates the ObjID and the version of the Object
+ * Each Object version, must have a file in the `version_history` folder
+ * The name of the file for e.g., for Object ID 0, Version 1.1, is `0-1_1.xml`
+    * The content of the `0-1_1.xml` file is the same as conten of the file `0.xml` for version 1.1
+      * IPSO keeps in the `version_history` folder a file for each Object in the registry, the file name indicates the ObjID and the version of the Object
 
 ### 4.4 Updates the `Common.xml` file (if adding new Reusable Resources)**
-    * If the request is to add one or more Reusable Resources, then for each Reusable Resource a new placeholder must be added to the `Common.xml` file
+ * If the request is to add one or more Reusable Resources, then for each Reusable Resource a new placeholder must be added to the `Common.xml` file
 
 **Example of Reusable Resource placeholder**
 
