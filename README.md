@@ -13,23 +13,24 @@ Companies that would like to register a new Object or Reusable Resource should f
 The steps are described below. 
 Please contact, helpdesk @ omaorg.org in case you encounter any problem during the submission
 
-## 1. Issue created by the Submitter
-* Create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before registering your ```Objects``` or ```Reusable Resources```
-* In the Issue indicate what you would like to do:
+## 1. Create an Issue
+* The Submitter nees to create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before registering your ```Objects``` or ```Reusable Resources```
+* In the Issue you must indicate what you would like to do:
   1. Create Version 1.0 of a new Object
   2. Create a new Version X.Y of an existing Object
   3. Create one or more Reusable Resources
 
-## 2. New branch created by the Maintainer
-* Based on the information provided the Maintainer will:
+## 2. New branch
+* Based on the information provided in the Issue the Maintainer will:
   * Create a new `topic` or `feature-branch` to apply the changes
     * **Branch Name**: `ObjID_companyName`
   * Reserve one or more Objects ID or/and Reusable Resources ID based on the Issue
 
-## 3. New or revised Object created by the Submitter
-* You can create the new Object using the **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** **[Guidelines](https://github.com/OpenMobileAlliance/lwm2m-registry/wiki/Guidelines)** & **[Best Practice](https://wiki.openmobilealliance.org/display/TOOL/LwM2M+Best+Practice)**
+## 3. Create a new Object
+* For each Object to register, the Submitter needs to create a new Object file using the **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** **[Guidelines](https://github.com/OpenMobileAlliance/lwm2m-registry/wiki/Guidelines)** & **[Best Practice](https://wiki.openmobilealliance.org/display/TOOL/LwM2M+Best+Practice)**
+* This Object file will be used at the next step when creating the Pull Request
 
-## 4. Pull Request created by the Submitter
+## 4. Create a Pull Request
 * The Submitter must create a Pull Request against the designated branch
 * Please follow these steps carefully:
 
