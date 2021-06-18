@@ -95,9 +95,8 @@ The next sections describe these steps in detail.
  ```
  
 ### 4.2 Update or create a new `ObjID.xml` file
-* In this step, if you are creating:
-  * A first version of an Object, version 1.0, then you must add a fully qualified `ObjID.xml` file to the allocated branch, or
-  * A revision of an existing Object, e.g. version 1.1 of Object ID `0.xml`, then you can modify directly the existing Object on the root of the allocated branch. But later you will have to add the new revision of the Object to the `history_folder`, see next step.
+* In this step, if you are creating a first version of an Object, version 1.0, then you must add a fully qualified `ObjID.xml` file to the allocated branch, or
+* If you are revising an existing Object, e.g. version 1.1 of Object ID `0.xml`, then you can modify directly the existing Object on the root of the allocated branch. But later you will have to add the new revision of the Object to the `history_folder`, see next step.
     
 ### 4.3 Add a new `ObjID-X_Y.xml` file to the `version_history` folder
  * Each Object version, must have a file in the `version_history` folder
@@ -147,7 +146,8 @@ The next sections describe these steps in detail.
       </Item>
   ```
  ## 5. Autovalidation
- * As soon as the Pull Request is created agains the designated branch, the LwM2M Validator will evaluate the conent of the Pull Request
- * At the end of the validation, the LwM2M Validatior will indicate with a lable if the validatio has failed or passed `Failed Validation` or `Passed Validation`
+ * As soon as the Pull Request is created against the designated branch, the LwM2M Validator will evaluate the conent of the Pull Request
+ * At the end of the validation, the LwM2M Validator will insert a lable in the Pull Request indicating the result of the validation: `Failed Validation` or `Passed Validation`
  * If the validation failed, then the LwM2M Validator will insert a table with the list of errors identified during the validation
- * The [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Error+Code), indicate who whould resolve the problem, the Submitter or the Maintainer
+   * The [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Error+Code), indicate who whould resolve the problem, the Submitter or the Maintainer
+ * If the validation passed, then a green label will be displayed and the IPSO group will be able to review your submission
