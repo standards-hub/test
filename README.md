@@ -3,8 +3,15 @@
 This public repository is dedicated to store and register new LwM2M Objects and Reusable Resources.
   
 # Registration Process  
+Companies that would like to register a new Object or Reusable Resource should follow these steps:
 
-![image](https://user-images.githubusercontent.com/3258579/49321895-7e517a80-f4bf-11e8-9337-9ff1fd027432.png)
+ 1. Create an Issue
+ 2. The Maintainer will create a new branch based on the Issue
+ 3. Create a new Object or revise and existing one
+ 4. Creat a Pull Request
+
+The steps are described below. 
+Please contact, helpdesk @ omaorg.org in case you encounter any problem during the submission
 
 ## 1. Issue created by the Submitter
 * Create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before registering your ```Objects``` or ```Reusable Resources```
@@ -82,7 +89,7 @@ This public repository is dedicated to store and register new LwM2M Objects and 
  
 ### 4.2 Update or create a new `ObjID.xml` file
 * In this step, if you are creating:
-  * A first version of an Object, version 1.0, then you must add a fully qualified `ObjID.xml` file to the allocated branch
+  * A first version of an Object, version 1.0, then you must add a fully qualified `ObjID.xml` file to the allocated branch, or
   * A revision of an existing Object, e.g. version 1.1 of Object ID `0.xml`, then you can modify directly the existing Object on the root of the allocated branch. But later you will have to add the new revision of the Object to the `history_folder`, see next step.
     
 ### 4.3 Add a new `ObjID-X_Y.xml` file to the `version_history` folder
@@ -132,14 +139,8 @@ This public repository is dedicated to store and register new LwM2M Objects and 
         <!--    0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
       </Item>
   ```
-  
-
-   
-4. To create successful ```Object(s)``` | ```Reusable Resource(s)``` use the provided **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** and follow the .   
-   
-5. Submit your ```Pull Request(s),(PRs)```, containing your ```Object(s)``` | ```Reusable Resource(s)``` registrations against the allocated branch - See **[Object PR submission guidelines](https://wiki.openmobilealliance.org/display/TOOL/Pull+Request+Object+submission)**.
-    > Note: The OMA staff will [close]() any ```PR(s)``` submitted against the incorrect branch. 
-  
-6. Participate in the feedback provided by the Technical Working Group. The Group will provide comments to help you to improve your registration.   
-  
-7. Once your submission has been accepted it will be incorporated into the *["master"](https://github.com/OpenMobileAlliance/lwm2m-registry/tree/master)* branch and published in the repository.
+ ## 5. Autovalidation
+ * As soon as the Pull Request is created agains the designated branch, the LwM2M Validator will evaluate the conent of the Pull Request
+ * At the end of the validation, the LwM2M Validatior will indicate with a lable if the validatio has failed or passed `Failed Validation` or `Passed Validation`
+ * If the validation failed, then the LwM2M Validator will insert a table with the list of errors identified during the validation
+ * The [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Error+Code), indicate who whould resolve the problem, the Submitter or the Maintainer
