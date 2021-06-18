@@ -31,8 +31,14 @@ Please contact, helpdesk @ omaorg.org in case you encounter any problem during t
 * This Object file will be used at the next step when creating the Pull Request
 
 ## 4. Create a Pull Request
-* The Submitter must create a Pull Request against the designated branch
-* Please follow these steps carefully:
+* The Submitter needs to create a Pull Request against the designated branch
+* These are the steps to follow:
+  4.1 Update the `DDF.xml` file
+  4.2 Create a new Object or update an existing Object file
+  4.3 Add the Object file to the `version_history` folder
+  4.4 Update the `Common.xml` file (if you are registering Reusable Resources)
+
+The next sections describe these steps in detail.
 
 ### 4.1 Update the `DDF.xml` file
 * If the submission contains a new Object the `DDF.xml` file must be updated
