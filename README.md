@@ -6,7 +6,7 @@ This public repository is dedicated to store and register new LwM2M Objects and 
 
 ![image](https://user-images.githubusercontent.com/3258579/49321895-7e517a80-f4bf-11e8-9337-9ff1fd027432.png)
 
-## 1. Create an Issue
+## 1. Issue created by the Submitter
 * Create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before registering your ```Objects``` or ```Reusable Resources```
 * In the Issue indicate what you would like to do:
   1. Create Version 1.0 of a new Object
@@ -19,13 +19,16 @@ This public repository is dedicated to store and register new LwM2M Objects and 
     * **Branch Name**: `ObjID_companyName`
   * Reserve one or more Objects ID or/and Reusable Resources ID based on the Issue
 
-## 3. Create the new or revised Object(s)
+## 3. New or revised Object created by the Submitter
 * You can create the new Object using the **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** 
   * **[Guidelines](https://github.com/OpenMobileAlliance/lwm2m-registry/wiki/Guidelines)** & **[Best Practice](https://wiki.openmobilealliance.org/display/TOOL/LwM2M+Best+Practice)**
 
-## 4. Create a Pull Request against the provided branch
-* Your Pull Request needs to have these components:
-  * **Update the `DDF.xml` file**
+## 4. Pull Request created by the Submitter
+* The Submitter must create a Pull Request against the allocated branch
+* Please follow these steps carefully:
+
+### 4.1 Update the `DDF.xml` file
+    * If the submission contains a new Object the `DDF.xml` file must be updated
     * The `DDF.xml` file contains all the Objects in the Registry. Therefore, each time that a new Object is added  the `DDF.xml` file must be updated with a new Object placeholder.
     
 ```xml
@@ -77,21 +80,59 @@ This public repository is dedicated to store and register new LwM2M Objects and 
     </Item>
  ```
  
-  * **Update or Upload a new `ObjID.xml` file to the branch
-    * If you are creating a the first version of an Object, version 1.0, you must upload a fully qualify `ObjID.xml` file
-    * If you are creating a revision of an existing Object, e.g. version 1.1 of and existing Object ID `0.xml`, then you can modify directly the existing Object in the root of the branch
+### 4.2 Update or create a new `ObjID.xml` file
+    * In this step, if you are creating:
+      * A first version of an Object, version 1.0, then you must upload a fully qualified `ObjID.xml` file to the allocated branch
+      * A revision of an existing Object, e.g. version 1.1 of Object ID `0.xml`, then you can modify directly the existing Object in the root of the allocated branch but you will have to add the new revision of the Object to the `history_folder`, see next step.
     
-  * **Upload a new `ObjID-X_Y.xml` file to the `version_history` folder
-    * Each Object version, must have a file in the `version_history` folder. 
+### 4.3 Add a new `ObjID-X_Y.xml` file to the `version_history` folder
+    * Each Object version, must have a file in the `version_history` folder
     * The name of the file is e.g., for Object ID 0, Version 1.1, the filename is `0-1_1.xml`
+      * The content of the `0-1_1.xml` is the content as the Object file `0.xml` for version 1.1
 
-  * **Update the `Common.xml` file if adding new Reusable Resources**
+### 4.4 Updates the `Common.xml` file (if adding new Reusable Resources)**
     * If the request is to add one or more Reusable Resources, then for each Reusable Resource a new placeholder must be added to the `Common.xml` file
 
   ```xml
     Example of Reusable Resource placeholder
-
+          
+      <Item ID="4000">
+        <!-- Resource ID of the reusable resource 
+             Reusable Resource IDs are allocated by the Maintainer, this is one of the reasons to raise an Issue in the first place -->
+        
+        <Name>ObjectInstanceHandle</Name>
+        <!-- Name of the reusable resource -->
+        
+        <Operations>R</Operations>
+        <!-- Allowed Operation on the reusable resource-->
+        
+        <Type>Objlnk</Type>
+        <!-- Type of the reusable resource -->
+        
+        <RangeEnumeration></RangeEnumeration>
+        <!-- Range/Enumeration of the reusable resource
+             A range is expressed with (..),e.g., from 0 to 10, it is expressed as; `(0..10)`
+          -->
+        
+        <Units></Units>
+        <!-- Unit of the reusable resource 
+             Please note the units expressed in this element MUST comply with the units defined in the SenML Registry -->
+        
+        <Submitter>OMA</Submitter>
+        <!-- Name of the organization that has registered the object -->
+        
+        <Description><![CDATA[Reusable Resource Description]]></Description>
+        <!-- Description of the reusable resource -->
+        
+        <TS></TS>
+        <!-- Link to the technical specification (word, pdf etc.) -->
+        
+        <TSLink>0</TSLink>
+        <!--    0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
+      </Item>
   ```
+  
+
    
 4. To create successful ```Object(s)``` | ```Reusable Resource(s)``` use the provided **[LwM2M Editor](http://devtoolkit.openmobilealliance.org/OEditor/Legal?back=default.aspx)** and follow the .   
    
