@@ -1,0 +1,2398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DDFList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.openmobilealliance.org/tech/profiles/DDF1.xsd">
+    <Item>
+        <!-- Integer -->
+        <!-- ObjectID -->
+        <ObjectID>0</ObjectID>
+        <!-- URN of the object -->
+        <URN>urn:oma:lwm2m:oma:0</URN>
+        <!-- Name of the object -->
+        <Name>LWM2M Security</Name>
+        <!-- Description of the Object -->
+        <Description>This LwM2M Object provides the keying material of a LwM2M Client appropriate to access a specified LwM2M Server. One Object Instance SHOULD address a LwM2M Bootstrap-Server.
+These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server.</Description>
+        <!-- Name of the organization that has registered the object -->
+        <Owner>Test WG</Owner>
+        <!-- Type of Object: 0 = defined by OMA, 1 = defined by external Standards Development Organizations, 2 = private or individual -->
+        <Source>0</Source>
+        <!-- Ver of the object, not visible, not used -->
+        <Ver>1.0</Ver>
+        <!-- URL to the xml file describing the object -->
+        <DDF>version_history/0-1_0.xml</DDF>
+        <!-- Link that opens the Object in the Vorto environment -->
+        <Vorto></Vorto>
+        <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
+        <DDFLink>1</DDFLink>
+        <!-- URL to the TS of the object, not visible, not used -->
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>0</ObjectID>
+        <URN>urn:oma:lwm2m:oma:0:1.1</URN>
+        <Name>LWM2M Security</Name>
+        <Description>This LwM2M Object provides the keying material of a LwM2M Client appropriate to access a specified LwM2M Server. One Object Instance SHOULD address a LwM2M Bootstrap-Server.
+These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>version_history/0-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>0</ObjectID>
+        <URN>urn:oma:lwm2m:oma:0:1.2</URN>
+        <Name>LWM2M Security</Name>
+        <Description>This LwM2M Object provides the keying material of a LwM2M Client appropriate to access a specified LwM2M Server. One Object Instance SHOULD address a LwM2M Bootstrap-Server.
+These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.2</Ver>
+        <DDF>0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>1</ObjectID>
+        <URN>urn:oma:lwm2m:oma:1</URN>
+        <Name>LwM2M Server</Name>
+        <Description>This LwM2M Objects provides the data related to a LwM2M Server. A Bootstrap-Server has no such an Object Instance associated to it.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/1-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+        <Item>
+        <ObjectID>1</ObjectID>
+        <URN>urn:oma:lwm2m:oma:1:1.1</URN>
+        <Name>LwM2M Server</Name>
+        <Description>This LwM2M Objects provides the data related to a LwM2M Server. A Bootstrap-Server has no such an Object Instance associated to it.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>version_history/1-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>1</ObjectID>
+        <URN>urn:oma:lwm2m:oma:1:1.2</URN>
+        <Name>LwM2M Server</Name>
+        <Description>This LwM2M Objects provides the data related to a LwM2M Server. A Bootstrap-Server has no such an Object Instance associated to it.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.2</Ver>
+        <DDF>1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2</ObjectID>
+        <URN>urn:oma:lwm2m:oma:2</URN>
+        <Name>LwM2M Access Control</Name>
+        <Description>Access Control Object is used to check whether the LwM2M Server has access right for performing an operation.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/2-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>2</ObjectID>
+        <URN>urn:oma:lwm2m:oma:2:1.1</URN>
+        <Name>LwM2M Access Control</Name>
+        <Description>Access Control Object is used to check whether the LwM2M Server has access right for performing an operation.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>2.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>3</ObjectID>
+        <URN>urn:oma:lwm2m:oma:3</URN>
+        <Name>Device</Name>
+        <Description>This LwM2M Object provides a range of device related information which can be queried by the LwM2M Server, and a device reboot and factory reset function.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3</ObjectID>
+        <URN>urn:oma:lwm2m:oma:3:1.1</URN>
+        <Name>Device</Name>
+        <Description>This LwM2M Object provides a range of device related information which can be queried by the LwM2M Server, and a device reboot and factory reset function.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>version_history/3-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>3</ObjectID>
+        <URN>urn:oma:lwm2m:oma:3:1.2</URN>
+        <Name>Device</Name>
+        <Description>This LwM2M Object provides a range of device related information which can be queried by the LwM2M Server, and a device reboot and factory reset function.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.2</Ver>
+        <DDF>3.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>4</ObjectID>
+        <URN>urn:oma:lwm2m:oma:4</URN>
+        <Name>Connectivity Monitoring</Name>
+        <Description>This LwM2M Object enables monitoring of parameters related to network connectivity.
+In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE).
+The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strength, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/4-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_0_2-20180209-A/OMA-TS-LightweightM2M-V1_0_2-20180209-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+        <Item>
+        <ObjectID>4</ObjectID>
+        <URN>urn:oma:lwm2m:oma:4:1.1</URN>
+        <Name>Connectivity Monitoring</Name>
+        <Description>This LwM2M Object enables monitoring of parameters related to network connectivity.
+In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE).
+The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strength, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>version_history/4-1_1.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>4</ObjectID>
+        <URN>urn:oma:lwm2m:oma:4:1.2</URN>
+        <Name>Connectivity Monitoring</Name>
+        <Description>This LwM2M Object enables monitoring of parameters related to network connectivity.
+In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE).
+The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strength, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.2</Ver>
+        <DDF>version_history/4-1_2.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>4</ObjectID>
+        <URN>urn:oma:lwm2m:oma:4:1.3</URN>
+        <Name>Connectivity Monitoring</Name>
+        <Description>This LwM2M Object enables monitoring of parameters related to network connectivity.
+In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE).
+The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strength, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.3</Ver>
+        <DDF>4.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>5</ObjectID>
+        <URN>urn:oma:lwm2m:oma:5</URN>
+        <Name>Firmware Update</Name>
+        <Description>This LwM2M Object enables management of firmware which is to be updated. This Object includes installing a firmware package, updating firmware, and performing actions after updating firmware. The firmware update MAY require to reboot the device; it will depend on a number of factors, such as the operating system architecture and the extent of the updated software.
+The envisioned functionality is to allow a LwM2M Client to connect to any LwM2M Server to obtain a firmware image using the object and resource structure defined in this section experiencing communication security protection using TLS/DTLS. There are, however, other design decisions that need to be taken into account to allow a manufacturer of a device to securely install firmware on a device. Examples for such design decisions are how to manage the firmware update repository at the server side (which may include user interface considerations), the techniques to provide additional application layer security protection of the firmware image, how many versions of firmware images to store on the device, and how to execute the firmware update process considering the hardware specific details of a given IoT hardware product. These aspects are considered to be outside the scope of this version of the specification.
+A LwM2M Server may also instruct a LwM2M Client to fetch a firmware image from a dedicated server (instead of pushing firmware images to the LwM2M Client). The Package URI resource is contained in the Firmware object and can be used for this purpose.
+A LwM2M Client MUST support block-wise transfer [CoAP_Blockwise] if it implements the Firmware Update object.
+A LwM2M Server MUST support block-wise transfer. Other protocols, such as HTTP/HTTPs, MAY also be used for downloading firmware updates (via the Package URI resource). For constrained devices it is, however, RECOMMENDED to use CoAP for firmware downloads to avoid the need for additional protocol implementations.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/5-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>5</ObjectID>
+        <URN>urn:oma:lwm2m:oma:5:1.1</URN>
+        <Name>Firmware Update</Name>
+        <Description>This LwM2M Object enables management of firmware which is to be updated. This Object includes installing a firmware package, updating firmware, and performing actions after updating firmware. The firmware update MAY require to reboot the device; it will depend on a number of factors, such as the operating system architecture and the extent of the updated software.
+The envisioned functionality is to allow a LwM2M Client to connect to any LwM2M Server to obtain a firmware image using the object and resource structure defined in this section experiencing communication security protection using TLS/DTLS. There are, however, other design decisions that need to be taken into account to allow a manufacturer of a device to securely install firmware on a device. Examples for such design decisions are how to manage the firmware update repository at the server side (which may include user interface considerations), the techniques to provide additional application layer security protection of the firmware image, how many versions of firmware images to store on the device, and how to execute the firmware update process considering the hardware specific details of a given IoT hardware product. These aspects are considered to be outside the scope of this version of the specification.
+A LwM2M Server may also instruct a LwM2M Client to fetch a firmware image from a dedicated server (instead of pushing firmware images to the LwM2M Client). The Package URI resource is contained in the Firmware object and can be used for this purpose.
+A LwM2M Client MUST support block-wise transfer [CoAP_Blockwise] if it implements the Firmware Update object.
+A LwM2M Server MUST support block-wise transfer. Other protocols, such as HTTP/HTTPs, MAY also be used for downloading firmware updates (via the Package URI resource). For constrained devices it is, however, RECOMMENDED to use CoAP for firmware downloads to avoid the need for additional protocol implementations.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>5.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>6</ObjectID>
+        <URN>urn:oma:lwm2m:oma:6</URN>
+        <Name>Location</Name>
+        <Description>This LwM2M Object provides a range of location telemetry related information which can be queried by the LwM2M Server.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>6.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>7</ObjectID>
+        <URN>urn:oma:lwm2m:oma:7</URN>
+        <Name>Connectivity Statistics</Name>
+        <Description>This LwM2M Objects enables client to collect statistical information and enables the LwM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>7.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>8</ObjectID>
+        <URN>urn:oma:lwm2m:oma:8</URN>
+        <Name>Lock and Wipe</Name>
+        <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>8.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0_3-20210119-A/OMA-TS-LWM2M_LockWipe-V1_0_2-20210119-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>9</ObjectID>
+        <URN>urn:oma:lwm2m:oma:9</URN>
+        <Name>LWM2M Software Management</Name>
+        <Description>This LwM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>9.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0_2-20210119-A/OMA-TS-LWM2M_SwMgmt-V1_0_2-20210119-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10</ObjectID>
+        <URN>urn:oma:lwm2m:oma:10</URN>
+        <Name>LWM2M Cellular Connectivity</Name>
+        <Description>This object specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, NB-IoT, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn't aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/10-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item><Item>
+        <ObjectID>10</ObjectID>
+        <URN>urn:oma:lwm2m:oma:10:1.1</URN>
+        <Name>LWM2M Cellular Connectivity</Name>
+        <Description>This object specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, NB-IoT, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn't aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>10.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>11</ObjectID>
+        <URN>urn:oma:lwm2m:oma:11</URN>
+        <Name>LWM2M APN Connection Profile</Name>
+        <Description>This object specifies resources to enable a device to connect to an APN.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/11-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item><Item>
+        <ObjectID>11</ObjectID>
+        <URN>urn:oma:lwm2m:oma:11:1.1</URN>
+        <Name>LWM2M APN Connection Profile</Name>
+        <Description>This object specifies resources to enable a device to connect to an APN.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>11.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>12</ObjectID>
+        <URN>urn:oma:lwm2m:oma:12</URN>
+        <Name>WLAN connectivity</Name>
+        <Description>This object specifies resources to enable a device to connect to a WLAN bearer.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/12-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item><Item>
+        <ObjectID>12</ObjectID>
+        <URN>urn:oma:lwm2m:oma:12:1.1</URN>
+        <Name>WLAN connectivity</Name>
+        <Description>This object specifies resources to enable a device to connect to a WLAN bearer.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>12.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>13</ObjectID>
+        <URN>urn:oma:lwm2m:oma:13</URN>
+        <Name>LWM2M Bearer Selection</Name>
+        <Description>This object specifies resources to enable a device to choose a PLMN/network on which to attach/register and what type of bearer to then connect.
+		This object allows via remote bearer and network configuration to overwrite automatic network and bearer selection e.g. as supported by the UICC. An equivalent example for overwriting automatic selection is a user doing manual network and bearer selection on a smart phone.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/13-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item><Item>
+        <ObjectID>13</ObjectID>
+        <URN>urn:oma:lwm2m:oma:13:1.1</URN>
+        <Name>LWM2M Bearer Selection</Name>
+        <Description>This object specifies resources to enable a device to choose a PLMN/network on which to attach/register and what type of bearer to then connect.
+		This object allows via remote bearer and network configuration to overwrite automatic network and bearer selection e.g. as supported by the UICC. An equivalent example for overwriting automatic selection is a user doing manual network and bearer selection on a smart phone.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>13.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>14</ObjectID>
+        <URN>urn:oma:lwm2m:oma:14</URN>
+        <Name>LWM2M Software Component</Name>
+        <Description>If some Objects are not supported after software update, the LwM2M Client MUST delete all the Object Instances of the Objects that are not supported.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>14.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+	<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0_2-20210119-A/OMA-TS-LWM2M_SwMgmt-V1_0_2-20210119-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>15</ObjectID>
+        <URN>urn:oma:lwm2m:oma:15</URN>
+        <Name>DevCapMgmt</Name>
+        <Description>This LWM2M Object is dedicated to manage the device capabilities of a device e.g. sensors, communication, etc.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/15-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_3-20200616-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_3-20200616-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>15</ObjectID>
+        <URN>urn:oma:lwm2m:oma:15:2.0</URN>
+        <Name>DevCapMgmt</Name>
+        <Description>This LWM2M Object is dedicated to manage the device capabilities of a device e.g. sensors, communication, etc.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>2.0</Ver>
+        <DDF>15.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_4-20201208-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_4-20201208-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>16</ObjectID>
+        <URN>urn:oma:lwm2m:oma:16</URN>
+        <Name>Portfolio</Name>
+        <Description>The Portfolio Object allows to extend the data storage capability of other Object Instances in the LwM2M system, as well as the services which may be used to authenticate and to protect privacy of data contained in those extensions. In addition, a service of data encryption is also defined</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>16.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0_1-20200616-A/OMA-TS-LWM2M_PortfolioObj-V1_0_1-20200616-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>17</ObjectID>
+        <URN>urn:oma:lwm2m:oma:17</URN>
+        <Name>Communications Characteristics</Name>
+        <Description>This object enables configuration of various generic communications parameters.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>18</ObjectID>
+        <URN>urn:oma:lwm2m:oma:18</URN>
+        <Name>Non-Access Stratum (NAS) Configuration</Name>
+        <Description>This object provides Non-Access Stratum (NAS) configuration and is derived from 3GPP TS 24.368.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>19</ObjectID>
+        <URN>urn:oma:lwm2m:oma:19</URN>
+        <Name>BinaryAppDataContainer</Name>
+        <Description>This LwM2M Objects provides the application service data related to a LwM2M Server, eg. Water meter data. 
+There are several methods to create instance to indicate the message direction based on the negotiation between Application and LwM2M. The Client and Server should negotiate the instance(s) used to exchange the data. For example:
+ - Using a single instance for both directions communication, from Client to Server and from Server to Client.
+ - Using an instance for communication from Client to Server and another one for communication from Server to Client
+ - Using several instances</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>19.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LwM2M_APPDATA/V1_0_1-20190221-A/OMA-TS-LWM2M_BinaryAppDataContainer-V1_0_1-20190221-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>20</ObjectID>
+        <URN>urn:oma:lwm2m:oma:20</URN>
+        <Name>Event Log</Name>
+        <Description>The Event Log Object is a single Instance Object defined for logging data in a straightforward and generic way.
+The Resources of that Object are based on the OMA LwM2M set of reusable Resources dedicated to logging event activity.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>20.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LwM2M_EventLog/V1_0_1-20200616-A/OMA-TS-LWM2M_EventLog-V1_0_1-20200616-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+        <Item>
+        <ObjectID>21</ObjectID>
+        <URN>urn:oma:lwm2m:oma:21</URN>
+        <Name>LWM2M OSCORE</Name>
+        <Description>This LwM2M Object provides the keying material and related information of a LwM2M Client appropriate to access a specified LwM2M Server using OSCORE. One Object Instance MAY address a LwM2M Bootstrap-Server. These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server.
+Instances of this Object are linked from Instances of Object 0 using the OSCORE Security Mode Resource of Object 0. Instances of this Object MUST NOT be linked from more than one Instance of Object 0.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/21-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>21</ObjectID>
+        <URN>urn:oma:lwm2m:oma:21:1.1</URN>
+        <Name>LWM2M OSCORE</Name>
+        <Description>This LwM2M Object provides the keying material and related information of a LwM2M Client appropriate to access a specified LwM2M Server using OSCORE. One Object Instance MAY address a LwM2M Bootstrap-Server. These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or Bootstrap from Smartcard and MUST NOT be accessible by any other LwM2M Server.
+Instances of this Object are linked from Instances of Object 0 using the OSCORE Security Mode Resource of Object 0. Instances of this Object MUST NOT be linked from more than one Instance of Object 0.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.1</Ver>
+        <DDF>21.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+      <Item>
+        <ObjectID>22</ObjectID>
+        <URN>urn:oma:lwm2m:oma:22</URN>
+        <Name>Virtual Observe Notify</Name>
+        <Description>The Virtual Observe Notify Object provides a main function to notify multiple resources to a LwM2M Server in one notification message whether the resources are in one object/object instance or across multiple objects. The Virtual Observe Notify Object also provides some functions to implement more efficient multi-resource report.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>22.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LwM2M_VON/V1_0-20190711-A/OMA-TS-LWM2M_VirtualObserveNotify-V1_0-20190711-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>23</ObjectID>
+        <URN>urn:oma:lwm2m:oma:23</URN>
+        <Name>LwM2M COSE</Name>
+        <Description>This Object provides the keying material and related information for use with COSE.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>23.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>24</ObjectID>
+        <URN>urn:oma:lwm2m:oma:24</URN>
+        <Name>MQTT Server</Name>
+        <Description>This object defines configuration parameters for an MQTT client to interact with a MQTT server.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>24.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>25</ObjectID>
+        <URN>urn:oma:lwm2m:oma:25</URN>
+        <Name>LwM2M Gateway</Name>
+        <Description>This object is used by a LwM2M Gateway to maintain the devices connected to the gateway.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/25-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+        <Item>
+        <ObjectID>25</ObjectID>
+        <URN>urn:oma:lwm2m:oma:25:2.0</URN>
+        <Name>LwM2M Gateway</Name>
+        <Description>This object is used by a LwM2M Gateway to maintain the IoT Devices connected to the LwM2M Gateway.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>2.0</Ver>
+        <DDF>25.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LwM2M_Gateway/V1_1-20210518-A/OMA-TS-LWM2M_Gateway-V1_1-20210518-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>26</ObjectID>
+        <URN>urn:oma:lwm2m:oma:26</URN>
+        <Name>LwM2M Gateway Routing</Name>
+        <Description>This object is used by a LwM2M Gateway to maintain the routing table.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>26.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>27</ObjectID>
+        <URN>urn:oma:lwm2m:oma:27</URN>
+        <Name>5GNR Connectivity</Name>
+        <Description>This is a device management object that should be used for 5G-NR capable devices.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>27.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item><Item>
+        <ObjectID>28</ObjectID>
+        <URN>urn:oma:lwm2m:oma:28</URN>
+        <Name>Device RF Capabilities</Name>
+        <Description>This is a device management object that should be used for capturing the RF capabilities of the device.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>28.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_2-20201110-A/OMA-TS-LightweightM2M_Core-V1_2-20201110-A.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>500</ObjectID>
+        <URN>urn:oma:lwm2m:oma:500</URN>
+        <Name>CoAP Config</Name>
+        <Description>This object is used to configure the CoAP transmission parameters (RFC7252) and other parameters that affect CoAP transmission.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>500.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>501</ObjectID>
+        <URN>urn:oma:lwm2m:oma:501</URN>
+        <Name>LTE-MTC Band Config</Name>
+        <Description>This object is used to configure the cellular band used by the device as well as to change the band. It is intended to be used on LTE bands, as in NB-IoT and LTE Cat M1 frequency bands.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>501.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>502</ObjectID>
+        <URN>urn:oma:lwm2m:oma:502</URN>
+        <Name>CO Detector</Name>
+        <Description>This is an alarm that should be raised if the sensor detects a higher than threshold CO level.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>502.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>503</ObjectID>
+        <URN>urn:oma:lwm2m:oma:503</URN>
+        <Name>Fire Alarm</Name>
+        <Description>This is an alarm that should be raised if the sensor(s) detect fire, based on the values reported from Temperature, Humidity, Smoke (CO2).</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>503.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>504</ObjectID>
+        <URN>urn:oma:lwm2m:oma:504</URN>
+        <Name>GSMA Remote SIM Provisioning</Name>
+        <Description>This is a device management object that should be used for Remote SIM Provisioning according to GSMA standards</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>504.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>505</ObjectID>
+        <URN>urn:oma:lwm2m:oma:505</URN>
+        <Name>LwM2M nuSIM Provisioning</Name>
+        <Description>This is a device management object that should be used for Remote SIM Provisioning from a LwM2M server.</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF>505.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>506</ObjectID>
+        <URN>urn:oma:lwm2m:oma:506</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>2048</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2048</URN>
+        <Name>CmdhPolicy</Name>
+        <Description>This Object provides links to a set of rules associated with a specific CSE that governs the behavior of that CSE regarding rejecting, buffering and sending request or response messages via the Mcc reference point.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2048.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2049</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2049</URN>
+        <Name>ActiveCmdhPolicy</Name>
+        <Description>This Object provides a link to the currently active set of CMDH policies</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2049.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2050</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2050</URN>
+        <Name>CmdhDefaults</Name>
+        <Description>Defines which CMDH related parameters will be used by default.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2050.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2051</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2051</URN>
+        <Name>CmdhDefEcValues</Name>
+        <Description>This Object represents default set of values for the Event Category parameter of an incoming request or response message.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2051.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2052</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2052</URN>
+        <Name>CmdhEcDefParamValues</Name>
+        <Description>This Object represents a specific set of default values for the CMDH related parameters Request Expiration Timestamp, Result Expiration Timestamp, Operational Execution Time, Result Persistence and Delivery Aggregation that are applicable for a given Event Category if these parameters are not specified in the message.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2052.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2053</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2053</URN>
+        <Name>CmdhLimits</Name>
+        <Description>This Object represents limits for CMDH related parameter values.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2053.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2054</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2054</URN>
+        <Name>CmdhNetworkAccessRules</Name>
+        <Description>This Object defines the usage of underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2054.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2055</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2055</URN>
+        <Name>CmdhNwAccessRule</Name>
+        <Description>This Object defines limits in usage of specific underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2055.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>2056</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2056</URN>
+        <Name>CmdhBuffer</Name>
+        <Description>This Object defines limits in usage of buffers for temporarily storing information that needs to be forwarded to other CSEs during processing of CMDH-related requests in a CSE.</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2056.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>2057</ObjectID>
+        <URN>urn:oma:lwm2m:ext:2057</URN>
+        <Name>CmdhBackOffParametersSet</Name>
+        <Description>This Object defines set of parameters which can be referenced by a specific Instance of the CmdhNwAccessRule Object (ID: 2055)</Description>
+        <Owner>oneM2M</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>2057.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+        <TSLink>1</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3200</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3200</URN>
+        <Name>Digital Input</Name>
+        <Description>Generic digital input for non-specific sensors</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3200-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3200</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3200:1.1</URN>
+        <Name>Digital Input</Name>
+        <Description>Generic digital input for non-specific sensors</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3200.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3201</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3201</URN>
+        <Name>Digital Output</Name>
+        <Description>>Generic digital output for non-specific actuators</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3201-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3201</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3201:1.1</URN>
+        <Name>Digital Output</Name>
+        <Description>Generic digital output for non-specific actuators</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3201.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3202</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3202</URN>
+        <Name>Analog Input</Name>
+        <Description>Generic analog input for non-specific sensors</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3202-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3202</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3202:1.1</URN>
+        <Name>Analog Input</Name>
+        <Description>Generic analog input for non-specific sensors</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3202.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3203</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3203</URN>
+        <Name>Analog Output</Name>
+        <Description>This IPSO object is a generic object that can be used with any kind of analog output interface.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3203-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3203</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3203:1.1</URN>
+        <Name>Analog Output</Name>
+        <Description>This IPSO object is a generic object that can be used with any kind of analog output interface.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3203.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3300</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3300</URN>
+        <Name>Generic Sensor</Name>
+        <Description>This IPSO object allows the description of a generic sensor. It is based on the description of a value and a unit according to the SenML specification. Thus, any type of value defined within this specification can be reported using this object. This object may be used as a generic object if a dedicated one does not exist.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3300-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3300</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3300:1.1</URN>
+        <Name>Generic Sensor</Name>
+        <Description>This IPSO object allows the description of a generic sensor. It is based on the description of a value and a unit according to the SenML specification. Thus, any type of value defined within this specification can be reported using this object. This object may be used as a generic object if a dedicated one does not exist.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3300.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3301</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3301</URN>
+        <Name>Illuminance</Name>
+        <Description>Illuminance sensor, example units = lx</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3301-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3301</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3301:1.1</URN>
+        <Name>Illuminance</Name>
+        <Description>Illuminance sensor, example units = lx</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3301.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3302</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3302</URN>
+        <Name>Presence</Name>
+        <Description>Presence sensor with digital sensing, optional delay parameters</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3302-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3302</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3302:1.1</URN>
+        <Name>Presence</Name>
+        <Description>Presence sensor with digital sensing, optional delay parameters</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3302.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3303</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3303</URN>
+        <Name>Temperature</Name>
+        <Description>This IPSO object should be used with a temperature sensor to report a temperature measurement.  It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. An example measurement unit is degrees Celsius.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3303-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3303</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3303:1.1</URN>
+        <Name>Temperature</Name>
+        <Description>This IPSO object should be used with a temperature sensor to report a temperature measurement.  It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. An example measurement unit is degrees Celsius.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3303.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3304</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3304</URN>
+        <Name>Humidity</Name>
+        <Description>This IPSO object should be used with a humidity sensor to report a humidity measurement.  It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. An example measurement unit is relative humidity as a percentage.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3304-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3304</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3304:1.1</URN>
+        <Name>Humidity</Name>
+        <Description>This IPSO object should be used with a humidity sensor to report a humidity measurement.  It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. An example measurement unit is relative humidity as a percentage.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3304.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3305</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3305</URN>
+        <Name>Power Measurement</Name>
+        <Description>This IPSO object should be used over a power measurement sensor to report a remote power measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range for both active and reactive power. It also provides resources for cumulative energy, calibration, and the power factor.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3305-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3305</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3305:1.1</URN>
+        <Name>Power Measurement</Name>
+        <Description>This IPSO object should be used over a power measurement sensor to report a remote power measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range for both active and reactive power. It also provides resources for cumulative energy, calibration, and the power factor.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3305.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3306</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3306</URN>
+        <Name>Actuation</Name>
+        <Description>This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multi-state output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/3306-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>3306</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3306:1.1</URN>
+        <Name>Actuation</Name>
+        <Description>This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multi-state output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</Description>
+        <Owner>IPSO Alliance</Owner>
+        <Source>1</Source>
+        <Ver>1.1</Ver>
+        <DDF>3306.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10242</ObjectID>
+        <URN>urn:oma:lwm2m:x:10242</URN>
+        <Name>3-Phase Power Meter</Name>
+        <Description>This Object provides the information to represent a generic 3-Phase Power Meter.</Description>
+        <Owner>Odins</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10242.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10243</ObjectID>
+        <URN>urn:oma:lwm2m:x:10243</URN>
+        <Name>Single-Phase Power Meter</Name>
+        <Description>This Object provides the information to represent a generic Single-Phase Power Meter.</Description>
+        <Owner>Odins</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/10243-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+	
+    <Item>
+        <ObjectID>10243</ObjectID>
+        <URN>urn:oma:lwm2m:x:10243:2.0</URN>
+        <Name>Single-Phase Power Meter</Name>
+        <Description>This Object provides the information to represent a generic Single-Phase Power Meter.</Description>
+        <Owner>Odins</Owner>
+        <Source>2</Source>
+        <Ver>2.0</Ver>
+        <DDF>10243.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10244</ObjectID>
+        <URN>urn:oma:lwm2m:x:10244</URN>
+        <Name>VehicleControlUnit</Name>
+        <Description>This Object provides the information to represent a generic VCU(vehicle control unit).</Description>
+        <Owner>Works System</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10244.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10245</ObjectID>
+        <URN>urn:oma:lwm2m:x:10245</URN>
+        <Name>Relay Management</Name>
+        <Description>This LWM2M Object provides a range of eNB related measurements and parameters of which several are changeable. Furthermore, it includes Resources to enable/disable the eNB.</Description>
+        <Owner>Vodafone Group Services Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10245.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10246</ObjectID>
+        <URN>urn:oma:lwm2m:x:10246</URN>
+        <Name>CrowdBox Measurements</Name>
+        <Description>This LWM2M Object provides CrowdBox-related measurements such as serving cell parameters, backhaul timing advance, and neighbour cell reports.</Description>
+        <Owner>Vodafone Group Services Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10246.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10247</ObjectID>
+        <URN>urn:oma:lwm2m:x:10247</URN>
+        <Name>Neighbour Cell Report</Name>
+        <Description>This LWM2M Object provides the neighbour cell report. The CrowdBox Measurements Object and the Connected UE Report Object have both Objlnk Resources pointing to this Object.</Description>
+        <Owner>Vodafone Group Services Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10247.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10248</ObjectID>
+        <URN>urn:oma:lwm2m:x:10248</URN>
+        <Name>Connected UE Measurements</Name>
+        <Description>This LWM2M Object provides a range of measurements of connected UEs and provides an Object link to the Connected UE report.</Description>
+        <Owner>Vodafone Group Services Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10248.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10249</ObjectID>
+        <URN>urn:oma:lwm2m:x:10249</URN>
+        <Name>	Connected UE Report</Name>
+        <Description>This LWM2M Object provides a range of information related to the connected UEs.</Description>
+        <Owner>Vodafone Group Services Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10249.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10250</ObjectID>
+        <URN>urn:oma:lwm2m:x:10250</URN>
+        <Name>App Data Container</Name>
+        <Description>This LWM2M Object is used for reporting application data of a device.</Description>
+        <Owner>Huawei Technologies Co., Ltd.</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10250.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10251</ObjectID>
+        <URN>urn:oma:lwm2m:x:10251</URN>
+        <Name>AT Command</Name>
+        <Description>Used to execute an AT command on a cellular modem</Description>
+        <Owner>Cisco</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10251.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10252</ObjectID>
+        <URN>urn:oma:lwm2m:x:10252</URN>
+        <Name>Manifest</Name>
+        <Description>This object provides a range of information related to updating packages on a device</Description>
+        <Owner>ARM Limited</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10252.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10253</ObjectID>
+        <URN>urn:oma:lwm2m:x:10253</URN>
+        <Name>Confidential Data</Name>
+        <Description>This LWM2M Object is used for reporting data, but in a confidential way</Description>
+        <Owner>Lab R&amp;D Atos Pessac</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10253.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10254</ObjectID>
+        <URN>urn:oma:lwm2m:x:10254:1.0</URN>
+        <Name>Current Loop Input</Name>
+        <Description>This LWM2M Object provides a representation of a current loop sensor, which indicates the value emitted by a current source.</Description>
+        <Owner>World-Direct eBusiness</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10254.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10255</ObjectID>
+        <URN>urn:oma:lwm2m:x:10255</URN>
+        <Name>Device Metadata</Name>
+        <Description><![CDATA[This object provides a range of information related to device metadata]]></Description>
+        <Owner>ARM Limited</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10255.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10256</ObjectID>
+        <URN>urn:oma:lwm2m:x:10256</URN>
+        <Name>ECID-Signal Measurement Information</Name>
+        <Description>This LWM2M Object provides ECID signal measurements of a device.</Description>
+        <Owner>Huawei Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10256.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10257</ObjectID>
+        <URN>urn:oma:lwm2m:x:10257</URN>
+        <Name>Heat / Cooling meter</Name>
+        <Description>This Object provides the information to represent a generic (district) heat or cooling meter</Description>
+        <Owner>Comsel System Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10257.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10258</ObjectID>
+        <URN>urn:oma:lwm2m:x:10258</URN>
+        <Name>Current Loop Output</Name>
+        <Description>This LWM2M Object provides a representation of a current loop source, which may be used to carry control signals.</Description>
+        <Owner>World-Direct eBusiness</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10258.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10259</ObjectID>
+        <URN>urn:oma:lwm2m:x:10259</URN>
+        <Name>System Log</Name>
+        <Description>This object provides read access to log buffers as well as limited configuration of logging services.</Description>
+        <Owner>Casa Systems</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10259.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10260</ObjectID>
+        <URN>urn:oma:lwm2m:x:10260</URN>
+        <Name>Runtime Database</Name>
+        <Description>This object allows manipulation of Runtime Database variables. Object deprecated with version 2.0 due to incorrect Type/Operation combination.</Description>
+        <Owner>Casa Systems</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/10260-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+        <Item>
+        <ObjectID>10260</ObjectID>
+        <URN>urn:oma:lwm2m:x:10260:2.0</URN>
+        <Name>RDB</Name>
+        <Description>This object allows manipulation of Runtime Database variables.</Description>
+        <Owner>Casa Systems</Owner>
+        <Source>2</Source>
+        <Ver>2.0</Ver>
+        <DDF>10260.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10262</ObjectID>
+        <URN>urn:oma:lwm2m:x:10262</URN>
+        <Name>Interval Data Delivery</Name>
+        <Description>The Interval Data Delivery object provides an optimised means for managing the delivery of interval data from multiple Interval Data Object instances. </Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10262.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10263</ObjectID>
+        <URN>urn:oma:lwm2m:x:10263</URN>
+        <Name>Event Data Delivery</Name>
+        <Description>The Event Data Delivery object provides a simple means for managing the delivery of event data from multiple Event Data Object instances.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10263.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10264</ObjectID>
+        <URN>urn:oma:lwm2m:x:10264</URN>
+        <Name>Delivery Schedule</Name>
+        <Description>The Delivery Schedule object provides a means for controlling the periodic delivery of interval and event data to the LwM2M server.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10264.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10265</ObjectID>
+        <URN>urn:oma:lwm2m:x:10265</URN>
+        <Name>Leakage Detection Configuration</Name>
+        <Description>The leakage detection configuration object provides a means for configuring the timing and sampling frequency of a vibration based network leak detector</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10265.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10266</ObjectID>
+        <URN>urn:oma:lwm2m:x:10266</URN>
+        <Name>Water Flow Readings</Name>
+        <Description>Measures the flow of water in regular intervals</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10266.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10267</ObjectID>
+        <URN>urn:oma:lwm2m:x:10267</URN>
+        <Name>Daily Maximum Flow Rate Readings</Name>
+        <Description>Measures the maximum flow rate and its time stamp for specified period</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10267.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10268</ObjectID>
+        <URN>urn:oma:lwm2m:x:10268</URN>
+        <Name>Temperature Readings</Name>
+        <Description>Periodic temperature measurements</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10268.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10269</ObjectID>
+        <URN>urn:oma:lwm2m:x:10269</URN>
+        <Name>Pressure Readings</Name>
+        <Description>Periodic pressure measurements</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10269.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10270</ObjectID>
+        <URN>urn:oma:lwm2m:x:10270</URN>
+        <Name>Battery Level Readings</Name>
+        <Description>Periodic battery level measurements</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10270.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10271</ObjectID>
+        <URN>urn:oma:lwm2m:x:10271</URN>
+        <Name>Communications Activity Time Readings</Name>
+        <Description>Measures the total duration that the meter was activating its radio for packet transmission or receipt for the period. Used to monitor for excess poower usage over time.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10271.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10272</ObjectID>
+        <URN>urn:oma:lwm2m:x:10272</URN>
+        <Name>Water Meter Customer Leakage Alarm</Name>
+        <Description>A binary flag indicating continual usage (e.g. greater than 5 L/h for 24 hours and the flow never returning to zero at any time).</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10272.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10273</ObjectID>
+        <URN>urn:oma:lwm2m:x:10273</URN>
+        <Name>Water Meter Reverse Flow Alarm</Name>
+        <Description>An alarm indicating reverse flow through the pipe. Also supports delivery of the approximate volume of water flowing in the reverse direction in the preceding period.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10273.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10274</ObjectID>
+        <URN>urn:oma:lwm2m:x:10274</URN>
+        <Name>Water Meter Empty Pipe Alarm</Name>
+        <Description>An alarm when meter detects there is no liquid in the pipe</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10274.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10275</ObjectID>
+        <URN>urn:oma:lwm2m:x:10275</URN>
+        <Name>Water Meter Tamper Alarm</Name>
+        <Description>Detects interference from strong magnetic field or other electrical sources. If this is not relevant for ultrasonic meters then the tamper alarm may be used to indicate someone attempting to open the physical enclosure or other options the manufacturer may present.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10275.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10276</ObjectID>
+        <URN>urn:oma:lwm2m:x:10276</URN>
+        <Name>Water Meter High Pressure Alarm</Name>
+        <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure above a pre-configured threshold.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10276.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10277</ObjectID>
+        <URN>urn:oma:lwm2m:x:10277</URN>
+        <Name>Water Meter Low Pressure Alarm</Name>
+        <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure below a pre-configured threshold.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10277.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10278</ObjectID>
+        <URN>urn:oma:lwm2m:x:10278</URN>
+        <Name>High Temperature Alarm</Name>
+        <Description>Where supported by the meter this is an alarm that should be raised if the meter detects temperature above a pre-configured threshold. When the temperature drops below the clear threshold, the alarm should be cleared.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10278.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10279</ObjectID>
+        <URN>urn:oma:lwm2m:x:10279</URN>
+        <Name>Low Temperature Alarm</Name>
+        <Description>Where supported by the meter this is an alarm that should be raised if the meter detects temperature below a pre-configured threshold. When the temperature rises above the clear threshold, the alarm should be cleared</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10279.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10280</ObjectID>
+        <URN>urn:oma:lwm2m:x:10280</URN>
+        <Name>Water Network Leak Alarm</Name>
+        <Description>All meters must support the following default configuration. This alarm will be based on the frequency output of the vibration sensor/accelerometer on the SEW Daughter board. When a frequency is identified that has the characteristics of an upstream network leak, and its amplitude is above the defined threshold, the meter will report this as a network leak alarm.</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10280.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10281</ObjectID>
+        <URN>urn:oma:lwm2m:x:10281</URN>
+        <Name>Low Battery Alarm </Name>
+        <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10281.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10282</ObjectID>
+        <URN>urn:oma:lwm2m:x:10282</URN>
+        <Name>Daughter Board Failure Alarm</Name>
+        <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10282.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10283</ObjectID>
+        <URN>urn:oma:lwm2m:x:10283</URN>
+        <Name>Device Reboot Event</Name>
+        <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10283.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10284</ObjectID>
+        <URN>urn:oma:lwm2m:x:10284</URN>
+        <Name>Time Synchronisation Event</Name>
+        <Description>This event records the fact that the device has rebooted</Description>
+        <Owner>South East Water Corporation</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10284.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10286</ObjectID>
+        <URN>urn:oma:lwm2m:x:10286</URN>
+        <Name>App Fota Container</Name>
+        <Description>This LWM2M Object is used to download the firmware package of a device's application.</Description>
+        <Owner>Huawei</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10286.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+     <Item>
+         <ObjectID>10290</ObjectID>
+         <URN>urn:oma:lwm2m:x:10290</URN>
+         <Name>Voltage Logging</Name>
+         <Description>Periodic voltage measurements that are logged into CBOR structure payload</Description>
+         <Owner>South East Water Corporation</Owner>
+         <Source>2</Source>
+         <Ver>1.0</Ver>
+         <DDF>10290.xml</DDF>
+         <Vorto></Vorto>
+         <DDFLink>1</DDFLink>
+         <TS></TS>
+         <TSLink>0</TSLink>
+     </Item>
+     <Item>
+         <ObjectID>10291</ObjectID>
+         <URN>urn:oma:lwm2m:x:10291</URN>
+         <Name>Voltage Transient</Name>
+         <Description>Object for sampling high frequency values (in this case Voltage readings) in order to aggregate them and summarize them (Avg, Max, Min) and to then time-stamp and log these aggregates for packaging and transmission to the server. This allows for efficient data transfer of high frequency data, without the need to send huge amounts of raw data over the air.</Description>
+         <Owner>South East Water Corporation</Owner>
+         <Source>2</Source>
+         <Ver>1.0</Ver>
+         <DDF>10291.xml</DDF>
+         <Vorto></Vorto>
+         <DDFLink>1</DDFLink>
+         <TS></TS>
+         <TSLink>0</TSLink>
+    </Item>
+     <Item>
+         <ObjectID>10292</ObjectID>
+         <URN>urn:oma:lwm2m:x:10292</URN>
+         <Name>Pressure Transient</Name>
+         <Description>Object for measuring high frequency pressure readings and summarizing/logging them at defined intervals. This way, the raw data does not need to be sent over the air, and instead just the Average , Maximum and Minimum values for the interval</Description>
+         <Owner>South East Water Corporation</Owner>
+         <Source>2</Source>
+         <Ver>1.0</Ver>
+         <DDF>10292.xml</DDF>
+         <Vorto></Vorto>
+         <DDFLink>1</DDFLink>
+         <TS></TS>
+         <TSLink>0</TSLink>
+    </Item>
+
+    <Item>
+        <ObjectID>10299</ObjectID>
+        <URN>urn:oma:lwm2m:x:10299</URN>
+        <Name>HostDevice</Name>
+        <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
+        <Owner>Verizon Wireless</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10299.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10300</ObjectID>
+        <URN>urn:oma:lwm2m:x:10300</URN>
+        <Name>LWM2M Meta Object</Name>
+        <Description> Use this meta object to provide one or more locations hosting XML data
+	  model definitions for reusable or private and vendor-specific devices,
+	  such as those in the range 26241-42768.</Description>
+        <Owner>TAU</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10300.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10301</ObjectID>
+        <URN>urn:oma:lwm2m:x:10301</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10302</ObjectID>
+        <URN>urn:oma:lwm2m:x:10302</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10303</ObjectID>
+        <URN>urn:oma:lwm2m:x:10303</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10304</ObjectID>
+        <URN>urn:oma:lwm2m:x:10304</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10305</ObjectID>
+        <URN>urn:oma:lwm2m:x:10305</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10308</ObjectID>
+        <URN>urn:oma:lwm2m:x:10308</URN>
+        <Name>AT&amp;T Connectivity Extension</Name>
+        <Description>The AT&amp;T Connectivity Extension Object will be used to gather information describing the UE and the operating state of the UE. The AT&amp;T Connectivity Extension Object is an open and standard object used by AT&amp;T.</Description>
+        <Owner>AT&amp;T</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/10308-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10308</ObjectID>
+        <URN>urn:oma:lwm2m:x:10308:2.0</URN>
+        <Name>AT&amp;T Connectivity Extension</Name>
+        <Description>The AT&amp;T Connectivity Extension Object will be used to gather information describing the UE and the operating state of the UE. The AT&amp;T Connectivity Extension Object is an open and standard object used by AT&amp;T.</Description>
+        <Owner>AT&amp;T</Owner>
+        <Source>2</Source>
+        <Ver>2.0</Ver>
+        <DDF>10308.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>	
+    <Item>
+        <ObjectID>10309</ObjectID>
+        <URN>urn:oma:lwm2m:x:10309</URN>
+        <Name>Shareparkinglot</Name>
+        <Description>This LwM2M Object provides the keying material of our technology product-ShareParkingLock.</Description>
+        <Owner>XiangYiIOT Technologies</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10309.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>  
+    <Item>
+        <ObjectID>10310</ObjectID>
+        <URN>urn:oma:lwm2m:x:10310</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10311</ObjectID>
+        <URN>urn:oma:lwm2m:x:10311</URN>
+        <Name>Solar Radiation</Name>
+        <Description>This Object is used to report solar irradiance (SI), i.e. power per unit area received from the Sun in the form of electromagnetic radiation, on a planar surface measured by a pyranometer or similar instrument. A pyranometer measures solar irradiance from the hemisphere above within a wavelength range 0.3 um to 3 um. For example, the application of solar radiation measurement can be meterological networks and solar energy applications.</Description>
+        <Owner>Vaisala</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>version_history/10311-1_0.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10311</ObjectID>
+        <URN>urn:oma:lwm2m:x:10311:1.1</URN>
+        <Name>Solar Radiation</Name>
+        <Description>This Object is used to report solar irradiance (SI), i.e. power per unit area received from the Sun in the form of electromagnetic radiation, on a planar surface measured by a pyranometer or similar instrument. A pyranometer measures solar irradiance from the hemisphere above within a wavelength range 0.3 um to 3 um. For example, the application of solar radiation measurement can be meterological networks and solar energy applications.</Description>
+        <Owner>Vaisala</Owner>
+        <Source>2</Source>
+        <Ver>1.1</Ver>
+        <DDF>10311.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10312</ObjectID>
+        <URN>urn:oma:lwm2m:x:10312</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10313</ObjectID>
+        <URN>urn:oma:lwm2m:x:10313</URN>
+        <Name>Gas Readings</Name>
+        <Description>Object to periodically log readings from any gas sensor (eg H2S, VOCx, methane etc)</Description>
+        <Owner>South East Water</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10313.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10314</ObjectID>
+        <URN>urn:oma:lwm2m:x:10314</URN>
+        <Name>Particulates</Name>
+        <Description>This object should be used to report the concentration of particulates, for example a measurement of a particulates air quality sensor.  It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the particulate sensor. An example measurement unit is microgrammes per cubic metre ug/m3.</Description>
+        <Owner>OpenLX SP Ltd</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10314.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10315</ObjectID>
+        <URN>urn:oma:lwm2m:x:10315</URN>
+        <Name>Robot</Name>
+        <Description>This LWM2M Object includes robot information and links to the location object.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10315.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10316</ObjectID>
+        <URN>urn:oma:lwm2m:x:10316</URN>
+        <Name>RCU</Name>
+        <Description>This LWM2M Object includes RCU(Robotic Control Unit) information and the link to RCU APPs.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10316.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10317</ObjectID>
+        <URN>urn:oma:lwm2m:x:10317</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10318</ObjectID>
+        <URN>urn:oma:lwm2m:x:10318</URN>
+        <Name>RCU PM</Name>
+        <Description>This LWM2M Object includes RCU(Robotic Control Unit) PM information(counter and guage).</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10318.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10319</ObjectID>
+        <URN>urn:oma:lwm2m:x:10319</URN>
+        <Name>RCU Control</Name>
+        <Description>This LWM2M Object includes all operations on RCUs.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10319.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10320</ObjectID>
+        <URN>urn:oma:lwm2m:x:10320</URN>
+        <Name>CCU</Name>
+        <Description>This LWM2M Object includes CCU(Central Control Unit) information and the link to CCU APPs.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10320.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10321</ObjectID>
+        <URN>urn:oma:lwm2m:x:10321</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10322</ObjectID>
+        <URN>urn:oma:lwm2m:x:10322</URN>
+        <Name>CCU PM</Name>
+        <Description>This LWM2M Object includes CCU PM(counter and gauge).</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10322.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10323</ObjectID>
+        <URN>urn:oma:lwm2m:x:10323</URN>
+        <Name>CCU Control</Name>
+        <Description>This LWM2M Object includes all operations on CCUs.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10323.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10324</ObjectID>
+        <URN>urn:oma:lwm2m:x:10324</URN>
+        <Name>ECU</Name>
+        <Description>This LWM2M Object includes ECU(End Control Unit) information.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10324.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10325</ObjectID>
+        <URN>urn:oma:lwm2m:x:10325</URN>
+        <Name>TBC</Name>
+        <Description>TBC</Description>
+        <Owner>TBC</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10326</ObjectID>
+        <URN>urn:oma:lwm2m:x:10326</URN>
+        <Name>Robot PM</Name>
+        <Description>This LWM2M Object includes PM(counter and gauge) supported by all robots.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10326.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10327</ObjectID>
+        <URN>urn:oma:lwm2m:x:10327</URN>
+        <Name>Compressor</Name>
+        <Description>This LWM2M Object includes the Compressor information.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10327.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10328</ObjectID>
+        <URN>urn:oma:lwm2m:x:10328</URN>
+        <Name>SCA PM</Name>
+        <Description>This LWM2M Object includes all PM items belongs to a specific SCA.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10328.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10329</ObjectID>
+        <URN>urn:oma:lwm2m:x:10329</URN>
+        <Name>Robot Control</Name>
+        <Description>This LWM2M Object includes all operations on robots.</Description>
+        <Owner>CloudMind</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10329.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    <Item>
+        <ObjectID>10330</ObjectID>
+        <URN>urn:oma:lwm2m:x:10330</URN>
+        <Name>Network Info</Name>
+        <Description>This LWM2M Object includes network status related information.</Description>
+        <Owner>CloudMinds</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>10330.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+</DDFList>
