@@ -1,8 +1,0 @@
-{
-  contributors: ["jpradocueva"]
-  message: "Thank you for your pull request and welcome to XXXX Community Project. We require contributions to sign our [Contributor License Agreement]() and 
-   and we don't seem to have you on file. In order for us to review and merge your contribution, please follow the link above and follwo the instructions.
-   If you have questions or believe you've received this messsage in error, don't hesitate to contact XXXX, our Project Leader",
-  label: "cla-signed",
-  recheckComment: "The cla-bot has been summoned, and re-cheched this pull request!."
-}
