@@ -24,3 +24,5 @@ Now we take square roots on both sides and get `x+b/(2a)=+-sqrt((b^2)/(4a^2)-c/a
 
 
 sum_(i=1)^n i^3=((n(n+1))/2)^2
+
+new line
