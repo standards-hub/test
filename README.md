@@ -151,3 +151,5 @@ The next sections describe these steps in detail.
  * If the validation failed, then the LwM2M Validator will insert a table with the list of errors identified during the validation
    * The [Error Codes](https://wiki.openmobilealliance.org/display/TOOL/Validation+Error+Code), indicate who whould resolve the problem, the Submitter or the Maintainer
  * If the validation passed, then a green label will be displayed and the IPSO group will be able to review your submission.
+
+New line 4:26pm PST
