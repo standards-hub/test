@@ -14,7 +14,7 @@ The steps are described below.
 Please contact, helpdesk @ omaorg.org in case you encounter any problem during the submission
 
 ## 1. Create an Issue
-* The Submitter nees to create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry)** before registering your ```Objects``` or ```Reusable Resources```
+* The Submitter nees to create an **[Issue](https://github.com/OpenMobileAlliance/lwm2m-registry){: target="_blank"}** before registering your ```Objects``` or ```Reusable Resources```
 * In the Issue you must indicate what you would like to do:
   1. Create Version 1.0 of a new Object
   2. Create a new Version X.Y of an existing Object
