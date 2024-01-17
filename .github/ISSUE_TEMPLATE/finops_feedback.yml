@@ -57,4 +57,4 @@ body:
       description: Provide any other relevant information here
       placeholder: Additional details...
     validations:
-      required: false
+      required: true
