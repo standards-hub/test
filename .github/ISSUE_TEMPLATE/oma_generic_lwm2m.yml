@@ -38,7 +38,7 @@ body:
       description: Select a type of issue from the list
       options:
         - '1. Specification Clarifications and Enhancements'
-        - '2. Security Improvements
+        - '2. Security Improvements'
         - '3. Interoperability Issues'
         - '4. Usability and Documentation'
         - '5. Feature Requests'
