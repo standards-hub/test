@@ -45,7 +45,6 @@ body:
         - '6. Bug Reports'
         - '7. Performance Optimization'
         - '8. Other'
-
     validations:
       required: true
 
