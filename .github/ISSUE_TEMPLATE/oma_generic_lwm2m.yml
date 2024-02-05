@@ -1,7 +1,7 @@
-name: Classification Framework for Discussion Topics
+name: Raise aLwM2M Issue
 description: Establish a clear categorization system for organizing discussion topics in the LwM2M repository.
-title: "[PROPOSAL]: "
-labels: ["meta", "discussion", "proposal"]
+title: "[DISCUSSION TOPIC]: "
+labels: ["New Functionality", "Editorial", "Bug"]
 assignees: [""]
 body:
   - type: markdown
@@ -34,13 +34,18 @@ body:
 
   - type: dropdown
     attributes:
-      label: Importance Scale
-      description: On a scale of 1 - 4, how important do you think a clear classification framework is for the LwM2M repository?
+      label: Type of Issue
+      description: Select a type of issue from the list
       options:
-        - '1: Not important'
-        - '2: Somewhat important'
-        - '3: Very important'
-        - '4: Critically important'
+        - '1. Specification Clarifications and Enhancements'
+        - '2. Security Improvements
+        - '3. Interoperability Issues'
+        - '4. Usability and Documentation'
+        - '5. Feature Requests'
+        - '6. Bug Reports'
+        - '7. Performance Optimization'
+        - '8. Other'
+
     validations:
       required: true
 
