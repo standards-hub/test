@@ -1,0 +1,53 @@
+name: Classification Framework for Discussion Topics
+description: Establish a clear categorization system for organizing discussion topics in the LwM2M repository.
+title: "[PROPOSAL]: "
+labels: ["meta", "discussion", "proposal"]
+assignees: [""]
+body:
+  - type: markdown
+    attributes:
+      value: "To enhance the navigability and efficiency of discussions in the LwM2M repository, we propose developing a comprehensive classification framework. This framework will categorize discussion topics, making it simpler for contributors to find and engage in discussions relevant to their interests and expertise. The goal is to streamline contributions, facilitate easier access to information, and foster more targeted and productive discussions."
+
+  - type: textarea
+    attributes:
+      label: Feedback on Proposed Classification Framework
+      description: Provide your feedback or suggestions on the proposed classification framework for discussion topics.
+      placeholder: Share your thoughts, suggestions, or concerns here...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Suggested Categories
+      description: If you have suggestions for additional categories or modifications to the existing ones, please list them here.
+      placeholder: e.g., Device Management, Data Reporting, etc.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Impact of Proposed Framework
+      description: Describe how you think the proposed classification framework will impact your ability to participate in discussions.
+      placeholder: Your experience and expectations...
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Importance Scale
+      description: On a scale of 1 - 4, how important do you think a clear classification framework is for the LwM2M repository?
+      options:
+        - '1: Not important'
+        - '2: Somewhat important'
+        - '3: Very important'
+        - '4: Critically important'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Feedback
+      description: Any additional feedback or comments related to the classification of discussion topics or overall repository organization.
+      placeholder: Additional feedback...
+    validations:
+      required: true
