@@ -1,4 +1,4 @@
-name: Raise aLwM2M Issue
+name: Raise a LwM2M Issue
 description: Establish a clear categorization system for organizing discussion topics in the LwM2M repository.
 title: "[DISCUSSION TOPIC]: "
 labels: ["New Functionality", "Editorial", "Bug"]
