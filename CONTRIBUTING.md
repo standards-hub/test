@@ -41,13 +41,13 @@ Understand our workflow and contribution process:
 ### 2.- Contributing to FOCUS Specifications
 
 There are several ways to contribute to the FOCUS_Spec repository:
-
-#### 2.1.- Find an Issue to Work On
+#### 2.1 Creating an Issue
+##### 2.1.1.- Find an Issue to Work On
 
 - Review open issues in the project's GitHub issues list.
 - Look for issues tagged with `help wanted` as they are suitable for newcomers.
 
-#### 2.2.- Create a New Issue
+##### 2.1.2- Create a New Issue
 
 - Before creating a new issue, search the Project View to avoid duplicates.
 - Use the provided GitHub Issues Templates for:
@@ -57,14 +57,14 @@ There are several ways to contribute to the FOCUS_Spec repository:
 
 Ensure to fill out all mandatory fields to submit the issue.
 
-#### 2.3.- Making Changes
+#### 2.2.- Creating a Pull Request
 
 - Branch off from the appropriate base, typically the development branch.
 - Make logically grouped commits.
 - Maintain the original writing style and adhere to normative language where necessary, as per [RFC 2119](https://tools.ietf.org/html/rfc2119).
 - Craft clear commit messages.
 
-##### 2.3.1 Submitting Changes
+##### 2.2.1 Submitting Changes
 
 - Create a Pull Request (PR) from your feature branch to the base branch.
 - Prefix the PR title with the related issue number, e.g., `#42`.
