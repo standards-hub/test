@@ -18,7 +18,12 @@ To contribute, you must first complete the following prerequisites:
 
 > Note: FOCUS does not accommodate Individual Contributors for the CLA.
 
-- **Join the Community**: After signing the EasyCLA, our staff will invite you to join the Slack `FOCUS-signed-members`, `FOCUS Groups`, and the GitHub `FOCUS organization` account. You will receive WRITE access after sending an email to [contact@finops.org](mailto:xxxx@finops.org).
+- **Join the Community**: After signing the EasyCLA, our staff will invite you to join:
+    *  Slack [FOCUS-signed-members](), 
+    * [FOCUS Groups](), and 
+    * GitHub [FOCUS organization]() group. 
+        * You will receive WRITE access after sending an email to [contact@finops.org](mailto:xxxx@finops.org).
+
 - **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact [contact@finops.org](mailto:xxxx@finops.org) for any questions.
 
 #### 2. Get Familiar with FOCUS Work
