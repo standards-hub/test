@@ -14,7 +14,10 @@ Our project adheres to a Code of Conduct that sets the expectations for particip
 
 To contribute, you must first complete the following prerequisites:
 
-- **Sign the Contributor License Agreement (CLA)**: You must sign the FOCUS Corporate Contributor License Agreement available at EasyCLA. Note: FOCUS does not accommodate Individual Contributors for the CLA. Visit the [FOCUS CLA Repository](#) for the document.
+- **Sign the Contributor License Agreement (CLA)**: You must sign the FOCUS Corporate Contributor License Agreement (CLA) available at [EasyCLA](https://github.com/FinOps-Open-Cost-and-Usage-Spec/EasyCLA) 
+
+> Note: FOCUS does not accommodate Individual Contributors for the CLA.
+
 - **Join the Community**: After signing the EasyCLA, our staff will invite you to join the Slack `FOCUS-signed-members`, `FOCUS Groups`, and the GitHub `FOCUS organization` account. You will receive WRITE access after sending an email to [contact@finops.org](mailto:xxxx@finops.org).
 - **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact [contact@finops.org](mailto:xxxx@finops.org) for any questions.
 
