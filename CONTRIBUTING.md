@@ -8,9 +8,9 @@ We're thrilled you're considering contributing to FOCUS_Spec! This document outl
 
 Our project adheres to a Code of Conduct that sets the expectations for participation in our community. By contributing, you are expected to uphold this code. Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
-### Contributing Process
+### 1.- Getting Started
 
-#### 1. Getting Started
+#### 1.1.- Contributing Process 
 
 To contribute, you must first complete the following prerequisites:
 
@@ -18,7 +18,7 @@ To contribute, you must first complete the following prerequisites:
 
 > Note: FOCUS does not accommodate Individual Contributors for the CLA.
 
-- **Join the Community**: After signing the EasyCLA, our staff will invite you to join:
+- **Join the Organization**: After signing the EasyCLA, our staff will invite you to join:
     *  Slack [FOCUS-signed-members](), 
     * [FOCUS Groups](), and 
     * GitHub [FOCUS organization]() group. 
@@ -26,26 +26,28 @@ To contribute, you must first complete the following prerequisites:
 
 - **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact [contact@finops.org](mailto:xxxx@finops.org) for any questions.
 
-#### 2. Get Familiar with FOCUS Work
+#### 1.2.- Get Familiar with FOCUS Work
 
 Understand our workflow and contribution process:
 
 - **FOCUS Process Diagram**: Familiarize yourself with the visual diagram representing collaboration in a FOCUS Project.
-- **RELEASE PLANNING.md**: Check upcoming release versions, schedules, and high-level feature plans.
+    * [Specification Life-Cycle Stages]():
+    * [Development Stage]():
+- **RELEASE PLANNING.md**: FOCUS roadmap. Check upcoming release versions, schedules, and high-level feature plans.
 - **CONTRIBUTING.md**: Review this document to understand repository-specific work guidelines.
 
 > **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
 
-### Contributing to FOCUS Specifications
+### 2.- Contributing to FOCUS Specifications
 
 There are several ways to contribute to the FOCUS_Spec repository:
 
-#### Find an Issue to Work On
+#### 2.1.- Find an Issue to Work On
 
 - Review open issues in the project's GitHub issues list.
 - Look for issues tagged with `help wanted` as they are suitable for newcomers.
 
-#### Create a New Issue
+#### 2.2.- Create a New Issue
 
 - Before creating a new issue, search the Project View to avoid duplicates.
 - Use the provided GitHub Issues Templates for:
@@ -55,14 +57,14 @@ There are several ways to contribute to the FOCUS_Spec repository:
 
 Ensure to fill out all mandatory fields to submit the issue.
 
-#### Making Changes
+#### 2.3.- Making Changes
 
 - Branch off from the appropriate base, typically the development branch.
 - Make logically grouped commits.
 - Maintain the original writing style and adhere to normative language where necessary, as per [RFC 2119](https://tools.ietf.org/html/rfc2119).
 - Craft clear commit messages.
 
-#### Submitting Changes
+##### 2.3.1 Submitting Changes
 
 - Create a Pull Request (PR) from your feature branch to the base branch.
 - Prefix the PR title with the related issue number, e.g., `#42`.
@@ -73,7 +75,7 @@ Ensure to fill out all mandatory fields to submit the issue.
   - **Milestone**: Specify the target milestone, e.g., `v1.0`.
   - **Project**: Link the PR to the relevant project board, with the status as `TRIAGE`.
 
-### Monitoring Project Status
+### 3.- Monitoring Project Status
 
 - Access the project board at [GitHub Project Link](#) to view the overall status, contributions, and pending tasks.
 
