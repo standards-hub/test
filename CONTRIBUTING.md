@@ -6,7 +6,7 @@ We're thrilled you're considering contributing to FOCUS_Spec! This document outl
 
 ### Code of Conduct
 
-Our project adheres to a Code of Conduct that sets the expectations for participation in our community. By contributing, you are expected to uphold this code. Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+Our project adheres to a Code of Conduct that sets the expectations for participation in our community. By contributing, you are expected to uphold this code. Please read the [Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/) before participating.
 
 ### 1.- Getting Started
 
