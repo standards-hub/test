@@ -8,9 +8,9 @@ We're thrilled you're considering contributing to FOCUS_Spec! This document outl
 
 Our project adheres to a Code of Conduct that sets the expectations for participation in our community. By contributing, you are expected to uphold this code. Please read the [Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/) before participating.
 
-## 0.- Getting Started
+## Getting Started
 
-### 0.1.- Contributing Process 
+### 1.- Contributing Process 
 
 To contribute, you must first complete the following prerequisites:
 
@@ -26,7 +26,7 @@ To contribute, you must first complete the following prerequisites:
 
 - **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a> for any questions.
 
-### 0.2.- Get Familiar with FOCUS Work
+### 2.- Get Familiar with FOCUS Work
 
 Understand our workflow and contribution process:
 
@@ -78,11 +78,12 @@ Ensure to fill out all mandatory fields to submit the issue.
 
 ### 2.- Discussion
 
+
 ### 3.- Review
 
 ### 4.- Approval
 
-## .- Monitoring Project Status
+## Monitoring Project Status
 
 - Access the project board at [GitHub Project Link](#) to view the overall status, contributions, and pending tasks.
 
