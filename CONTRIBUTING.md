@@ -14,17 +14,17 @@ Our project adheres to a Code of Conduct that sets the expectations for particip
 
 To contribute, you must first complete the following prerequisites:
 
-- **Sign the Contributor License Agreement (CLA)**: You must sign the FOCUS Corporate Contributor License Agreement (CLA) available at <a href: "https://github.com/FinOps-Open-Cost-and-Usage-Spec/EasyCLA)" target="_blank">EasyCLA</a>.
+- **Sign the Contributor License Agreement (CLA)**: You must sign the FOCUS Corporate Contributor License Agreement (CLA) available at <a href="https://github.com/FinOps-Open-Cost-and-Usage-Spec/EasyCLA)" target="_blank">EasyCLA</a>.
 
 > Note: FOCUS does not accommodate Individual Contributors for the CLA.
 
 - **Join the Organization**: After signing the EasyCLA, our staff will invite you to join:
-    *  Slack [FOCUS-signed-members](), 
-    * [FOCUS Groups](), and 
-    * GitHub [FOCUS organization]() group. 
-        * You will receive WRITE access after sending an email to [contact@finops.org](mailto:xxxx@finops.org).
+    *  Slack <a href="https://app.slack.com/client/TH7CE9HP1/C053CNCRVCL" target="_target">FOCUS-signed-members</a>, 
+    * <a href="https://groups.google.com/" target="_blank">FOCUS Groups</a>, and 
+    * GitHub <a href="https://github.com/orgs/FinOps-Open-Cost-and-Usage-Spec/repositories" target="_blank">FOCUS organization</a>. 
+        * You will receive WRITE access after sending an email to <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a>.
 
-- **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact [contact@finops.org](mailto:xxxx@finops.org) for any questions.
+- **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a> for any questions.
 
 #### 1.2.- Get Familiar with FOCUS Work
 
