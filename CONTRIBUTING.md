@@ -20,7 +20,7 @@ To contribute, you must first complete the following prerequisites:
 
 - **Join the Organization**: After signing the EasyCLA, our staff will invite you to join:
     *  Slack <a href="https://app.slack.com/client/TH7CE9HP1/C053CNCRVCL" target="_target">FOCUS-signed-members</a>, 
-    * <a href="https://groups.google.com/" target="_blank">FOCUS Groups</a>, and 
+    * Google Groups, <a href="https://groups.google.com/" target="_blank">FOCUS Groups</a>, and 
     * GitHub <a href="https://github.com/orgs/FinOps-Open-Cost-and-Usage-Spec/repositories" target="_blank">FOCUS organization</a>. 
         * You will receive WRITE access after sending an email to <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a>.
 
