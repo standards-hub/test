@@ -1,7 +1,5 @@
 # CONTRIBUTING.md
 
-## Contributing to FOCUS_Spec
-
 We're thrilled you're considering contributing to FOCUS_Spec! This document outlines the process for contributing to our repository, helping you develop technical documents that make this project valuable to everyone.
 
 ### Code of Conduct
@@ -38,10 +36,11 @@ Understand our workflow and contribution process:
 
 > **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
 
-## Specification Life-Process
-### 1.- Item Creation (Issues | PRs)
+## Contributing to FOCUS_Spec
+### 1.- Create (Issues | PRs)
 
 There are several ways to contribute to the FOCUS_Spec repository:
+
 #### 1.1.- Creating an Issue
 ##### 1.1.1.- Find an Issue to Work On
 
