@@ -86,6 +86,8 @@ Ensure to fill out all mandatory fields to submit the issue.
 
 - Access the project board at [GitHub Project Link](#) to view the overall status, contributions, and pending tasks.
 
+## Release Planning
+
 ### Questions?
 
 If you have any questions or need further guidance, feel free to open an issue for discussion or contact the project maintainers directly.
