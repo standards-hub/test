@@ -2,7 +2,7 @@
 
 ## Contributing to FOCUS_Spec
 
-We're thrilled you're considering contributing to FOCUS_Spec! This document outlines the process for contributing to our repository, helping you develop datasets and technical documents that make this project valuable to everyone.
+We're thrilled you're considering contributing to FOCUS_Spec! This document outlines the process for contributing to our repository, helping you develop technical documents that make this project valuable to everyone.
 
 ### Code of Conduct
 
