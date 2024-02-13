@@ -49,8 +49,8 @@ There are several ways to contribute to the FOCUS_Spec repository:
 
 ##### 1.1.2.- Create a New Issue
 
-- Before creating a new issue, search the Project View to avoid duplicates.
-- Use the provided GitHub Issues Templates for:
+- Before creating a new issue, search the **FOCUS WG <a href="https://github.com/orgs/FinOps-Open-Cost-and-Usage-Spec/projects/5/views/2" target="_blank">Project View</a> to avoid duplicates.
+- Use the provided GitHub <a href="https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/issues/new/choose" target="_blank">Issues Templates</a> for:
   - **Feedback (Use Case)**: Submit new use cases based on FinOps.
   - **Editorial/Bug**: Report issues other than feedback, like feature requests, editorial changes, or bug fixes.
   - **Other**: For miscellaneous issues.
@@ -62,7 +62,7 @@ Ensure to fill out all mandatory fields to submit the issue.
 - Branch off from the appropriate base, typically the development branch.
 - Make logically grouped commits.
 - Maintain the original writing style and adhere to normative language where necessary, as per [RFC 2119](https://tools.ietf.org/html/rfc2119).
-- Craft clear commit messages.
+- Create clear commit messages.
 
 ##### 1.2.1.- Submitting Changes
 
