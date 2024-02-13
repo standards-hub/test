@@ -8,7 +8,7 @@ Our project adheres to a Code of Conduct that sets the expectations for particip
 
 ## Getting Started
 
-### 1.- Contributing Process 
+### 1.- Prerequisites 
 
 To contribute, you must first complete the following prerequisites:
 
@@ -16,25 +16,13 @@ To contribute, you must first complete the following prerequisites:
 
 > Note: FOCUS does not accommodate Individual Contributors for the CLA.
 
-- **Join the Organization**: After signing the EasyCLA, our staff will invite you to join:
-    *  Slack <a href="https://app.slack.com/client/TH7CE9HP1/C053CNCRVCL" target="_target">FOCUS-signed-members</a>, 
-    * Google Groups, <a href="https://groups.google.com/" target="_blank">FOCUS Groups</a>, and 
-    * GitHub <a href="https://github.com/orgs/FinOps-Open-Cost-and-Usage-Spec/repositories" target="_blank">FOCUS organization</a>. 
-        * You will receive WRITE access after sending an email to <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a>.
+- **Join the Organization**: After signing the EasyCLA, our staff will invite you to join FOCUS resources. See details <a href="" target="_blank"><strong>here</strong></a>.
 
-- **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a> for any questions.
+- **Get Familiar with FOCUS process & workflow**: Understand our workflow and contribution process. See details <a href="" target="_blank"><strong>here</strong></a>.
 
-### 2.- Get Familiar with FOCUS Work
-
-Understand our workflow and contribution process:
-
-- **FOCUS Process Diagram**: Familiarize yourself with the visual diagram representing collaboration in a FOCUS Project.
-    * [Specification Life-Cycle Stages]():
-    * [Development Stage]():
-- **RELEASE PLANNING.md**: FOCUS roadmap. Check upcoming release versions, schedules, and high-level feature plans.
-- **CONTRIBUTING.md**: Review this document to understand repository-specific work guidelines.
-
-> **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
+- **Read the following documents:** (both in this repository)
+    - **RELEASE PLANNING.md**: FOCUS roadmap. Check upcoming release versions, schedules, and high-level feature plans.
+    - **CONTRIBUTING.md**: Review this document to understand repository-specific work guidelines.
 
 ## Contributing to FOCUS_Spec
 ### 1.- Create (Issues | PRs)
