@@ -8,8 +8,6 @@ Our project adheres to a Code of Conduct that sets the expectations for particip
 
 ## Getting Started
 
-### 1.- Prerequisites 
-
 To contribute, you must first complete the following prerequisites:
 
 - **Sign the Contributor License Agreement (CLA)**: You must sign the FOCUS Corporate Contributor License Agreement (CLA) available at <a href="https://github.com/FinOps-Open-Cost-and-Usage-Spec/EasyCLA" target="_blank">EasyCLA</a>.
