@@ -19,30 +19,63 @@ To contribute, you must first complete the following prerequisites:
 
 Understand our workflow and contribution process:
 
-- **FOCUS Process Diagram**: Familiarize yourself with the visual diagram representing collaboration in a FOCUS Project.
-    * [Specification Life-Cycle Stages]():
-    * [Development Stage]():
+- **FOCUS Process Diagram**: Familiarize yourself with the diagrams representing collaboration in a FOCUS Project.
+    * [Specification Life-Cycle Stages](): Stages to build a Technical Specification
+    * [Development Stage](): How to build consensus and develop FOCUS Technical Specifications in GitHub.
 - **RELEASE PLANNING.md**: FOCUS roadmap. Check upcoming release versions, schedules, and high-level feature plans.
-- **CONTRIBUTING.md**: Review this document to understand repository-specific work guidelines.
+- **CONTRIBUTING.md**: Review this document to understand how to work on the repository.
 
 > **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
 
-
 ## Technical Specifications Life-Cycle
 
+![image](https://github.com/standards-hub/test/assets/3258579/3e54a3e7-35c2-42e5-b911-79bbf43847e4)
+
+The Specifications Life-Cycle is a structured process that outlines the steps involved in the creation, development, approval, and publication of a set of specifications. This process ensures that the specifications are thoroughly reviewed and meet the necessary criteria before becoming publicly available. The life-cycle can be broken down into several key stages:
+
+### Draft Phase
+
+#### Work Item Creation
+- The process begins with the creation of a work item. This is the initial concept or proposal for the specifications.
+
+#### Specifications Development
+- Once the work item is approved, the specifications are developed. This involves detailed work and may go through several iterations, including bug fixes.
+
+#### Consistency Review
+- After development, the specifications undergo a consistency review to ensure all elements are aligned and meet the predefined criteria.
+
+### Approved Phase
+
+#### Final Spec Working Group Approval
+- The developed specifications are presented to the working group for final approval.
+
+#### Steering Committee Ratification
+- Following approval from the working group, the specifications are forwarded to the steering committee for ratification.
+
+### Publicly Available Phase
+
+#### Publication
+- Once ratified, the specifications are published and made publicly available.
+
+#### Feedback
+- After publication, feedback is collected for potential inclusion in future versions or bug fixes.
+
+The process is iterative, with the possibility of creating new versions of the specifications as needed.
 
 ## Specification Development
 Sandwiched between the "Work Item" initiation and the "Consistency Review", the "Specification Development" phase encapsulates the entire GitHub-driven workflow. It represents a significant phase in the specification life-cycle where the proposed items are fleshed out, debated, refined and approved until they are ready for the final consistency check, ensuring alignment with the overarching goals and existing standards.
 
-This diagram phase serves as a roadmap for standards engineers, providing a clear and organized path from the creation of items (Issues and Pull Requests) to its final review and approval. It emphasizes the collaborative nature of the process and the critical role of consensus in developing robust, widely-accepted standards.
+![image](https://github.com/standards-hub/test/assets/3258579/a042384a-6a09-4182-9517-76642be03a90)
 
-The diagram maps the workflow of specification development, particularly in the context of a GitHub implementation for standards engineers. It outlines a structured approach to progressing from the initial concept of a work item to the final consistency review, framed within both consensus stages and GitHub Workflow.
+This diagram is a reference for contributors, providing a clear and organized path from the creation of items (Issues and Pull Requests) to its final Review and Approval. It emphasizes the collaborative nature of the process and the critical role of consensus in developing robust, widely-accepted standards.
+
+The diagram maps the workflow of specification development using GitHub. It outlines a structured approach to progressing from the initial concept of a work item to the final consistency review, framed within both consensus stages and GitHub Workflow.
 
 Here's a detailed description of the diagram:
 
 ### Consensus Process
 
-The development of standards within any organization is a meticulous process that requires a structured approach to ensure broad agreement and quality outcomes. The consensus stages described here outline the essential steps taken by standards organizations to reach an agreement on various specifications and changes. This content serves to elucidate the inner workings of these stages, providing clarity on how consensus is achieved in a systematic and inclusive manner. In the following section, we will explore how these consensus stages are practically applied using a GitHub Project workflow, demonstrating a real-world process of collaboration and decision-making. This implementation is not only practical but also aligns with contemporary methods of software development and project management, thus exemplifying a modern approach to standards development. These are the consensus stages:
+The development of standards within any organization is a meticulous process that requires a structured approach to ensure broad agreement and quality outcomes. The consensus stages described here outline the essential steps taken by standards organizations to reach an agreement when developing specifications and changes. This content serves to explain the inner workings of these stages, providing clarity on how consensus is achieved in a systematic and inclusive manner. In the following section, we will explore how these consensus stages are practically applied using a GitHub Project workflow, demonstrating a real-world process of collaboration and decision-making. This implementation is not only practical but also aligns with contemporary methods of software development and project management, thus exemplifying a modern approach to standards development. These are the consensus stages:
 
 #### Creation:
 In the initial "Creation" stage, Working Group (WG) members initiate the process by generating issues and pull requests (PRs) against a specific release. This marks the conceptual inception of new features and signifies the beginning of the specification development process.
@@ -57,10 +90,11 @@ As we progress to the "Review & Approval" stage, there is a shift to meticulous 
 Finally, we reach the decisive point of the consensus stages. In "Merged or Closed," the fate of each PR is determined: those that achieve approval are merged, signaling the successful addition of a new or improved feature to the standard. Those that fail to meet the consensus Approval Criteria are closed, thus concluding their journey without integration. This stage marks the resolution of the consensus process and sets the stage for the next cycle of development and improvement.
 
 ### GitHub Project Workflow
-These are the Project Workflow status:
+To effectively bridge the Standards Consensus Process stages with practical application, the FinOps FOCUS project leverages GitHub Workflows, enabling transparent and efficient tracking of each stage's progress within the [FOCUS WG](https://github.com/orgs/FinOps-Open-Cost-and-Usage-Spec/projects/5) Project. These are the Project Status:
 
 #### Triage: 
 As the inception point within the GitHub environment, items are initially triaged by maintainers. This sorting process is essential for prioritizing tasks and streamlining the workflow.
+>New Items are automatically assigned to this stage.
 
 #### Parking Lot: 
 Identified by the qualifier "In & Out," this stage serves as a temporary hold for items that, while acknowledged as important, are not immediately actionable. The work on these items is paused, often due to external dependencies or strategic considerations.
@@ -69,7 +103,7 @@ Identified by the qualifier "In & Out," this stage serves as a temporary hold fo
 Task forces come into play, getting into active discussions on the items assigned to the Task Force. It's a hive of collaborative effort, where the groundwork for the specifications is laid out and iteratively refined.
 
 #### Review & Approval: 
-Post-discussion, items deemed technically complete are forwarded to the WG for final approval. This is a critical gatekeeping phase where standards are scrutinized before formal adoption.
+Post-discussion, items deemed technically complete are forwarded to the WG for final approval. This is a critical gatekeeping phase where standards are scrutinized before formally integrate them into the Specification baseline.
 
 #### Merged or Closed:
 The process concludes with the merging of agreed-upon PRs. Alternatively, issues that garner consensus may be transitioned into PRs for integration. Some items may be closed if the WG decides no action is necessary.
