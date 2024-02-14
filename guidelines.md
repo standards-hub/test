@@ -22,10 +22,10 @@ Understand our workflow and contribution process:
 - **FOCUS Process Diagram**: Familiarize yourself with the diagrams representing collaboration in a FOCUS Project.
     * [Specification Life-Cycle Stages](): Stages to build a Technical Specification
     * [Development Stage](): How to build consensus and develop FOCUS Technical Specifications in GitHub.
-- **RELEASE PLANNING.md**: FOCUS roadmap. Check upcoming release versions, schedules, and high-level feature plans.
+- **RELEASE PLANNING.md**: This document contains the Specification roadmap. Check here for upcoming release versions, schedules, and high-level feature plans.
 - **CONTRIBUTING.md**: Review this document to understand how to work on the repository.
 
-    > **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
+    > **Note**: Every FOCUS repository with release material SHOULD contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
 
 ## Technical Specifications Life-Cycle
 ![image](https://github.com/standards-hub/test/assets/3258579/da37f18e-4883-4577-9dd3-d0bf37e96480)
@@ -35,7 +35,7 @@ The Specifications Life-Cycle is a structured process that outlines the steps in
 ### Draft Phase
 
 #### Work Item Creation
-- The process begins with the creation of a work item. This is the initial concept or proposal for the specifications.
+- The process begins with the creation of a work item. This is the initial concept or proposal for the specifications. A release MAY contain one or more work items.
 
 #### Specifications Development
 - Once the work item is approved, the specifications are developed. This involves detailed work and may go through several iterations, including bug fixes.
@@ -43,10 +43,10 @@ The Specifications Life-Cycle is a structured process that outlines the steps in
 #### Consistency Review
 - After development, the specifications undergo a consistency review to ensure all elements are aligned and meet the predefined criteria.
 
-### Approved Phase
-
 #### Final Spec Working Group Approval
 - The developed specifications are presented to the working group for final approval.
+
+### Approved Phase
 
 #### Steering Committee Ratification
 - Following approval from the working group, the specifications are forwarded to the steering committee for ratification.
@@ -60,6 +60,8 @@ The Specifications Life-Cycle is a structured process that outlines the steps in
 - After publication, feedback is collected for potential inclusion in future versions or bug fixes.
 
 The process is iterative, with the possibility of creating new versions of the specifications as needed.
+
+## Work Item Creation
 
 ## Specification Development
 Sandwiched between the "Work Item" initiation and the "Consistency Review", the "Specification Development" phase encapsulates the entire GitHub-driven workflow. It represents a significant phase in the specification life-cycle where the proposed items are fleshed out, debated, refined and approved until they are ready for the final consistency check, ensuring alignment with the overarching goals and existing standards.
@@ -107,3 +109,8 @@ Post-discussion, items deemed technically complete are forwarded to the WG for f
 #### Merged or Closed:
 The process concludes with the merging of agreed-upon PRs. Alternatively, issues that garner consensus may be transitioned into PRs for integration. Some items may be closed if the WG decides no action is necessary.
 
+## Consistency Review
+
+## SC Ratification
+
+## Publication

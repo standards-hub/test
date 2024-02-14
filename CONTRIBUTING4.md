@@ -73,6 +73,16 @@ Our workflow is structured into stages, each with specific activities and object
 4. **Implement Changes:** For PRs, work on your statements changes in your assigned branch and push updates to the PR as the discussion evolves.
 5. **Follow Through:** Keep track of your Issue/PR as it moves through the stages. Address any triage or review feedback.
 
+## Monitoring Project Status
+
+- Access the project board at [GitHub Project Link](#) to view the overall status, contributions, and pending tasks.
+
+## Release Planning
+
+## Questions?
+
+If you have any questions or need further guidance, feel free to open an issue for discussion or contact the project maintainers directly.
+
 ## Final Notes
 
 - **Patience is Key:** The specification development process is thorough and can take time. Please be patient as the WG and community work through the stages.
