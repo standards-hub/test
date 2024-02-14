@@ -78,6 +78,7 @@ Our workflow is structured into stages, each with specific activities and object
 - Access the project board at [GitHub Project Link](#) to view the overall status, contributions, and pending tasks.
 
 ## Release Planning
+- Please refer to the associated GitHub repository for a detailed [RELEASE PLANNING]() roadmap outlining the development process of the specification within the repo. 
 
 ## Questions?
 
