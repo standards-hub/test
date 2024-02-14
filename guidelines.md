@@ -29,7 +29,7 @@ Understand our workflow and contribution process:
 
 ## Technical Specifications Life-Cycle
 
-![image](https://github.com/standards-hub/test/assets/3258579/3e54a3e7-35c2-42e5-b911-79bbf43847e4)
+![image](https://github.com/standards-hub/test/assets/3258579/4ca9ea87-b54f-468b-afd7-4fc33075a5ee)
 
 The Specifications Life-Cycle is a structured process that outlines the steps involved in the creation, development, approval, and publication of a set of specifications. This process ensures that the specifications are thoroughly reviewed and meet the necessary criteria before becoming publicly available. The life-cycle can be broken down into several key stages:
 
