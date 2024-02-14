@@ -2,7 +2,7 @@
 
 We're thrilled you're considering contributing to FOCUS_Spec! This document outlines the process for contributing to our repository, helping you develop technical documents that make this project valuable to everyone.
 
-### Code of Conduct
+## Code of Conduct
 
 Our project adheres to a Code of Conduct that sets the expectations for participation in our community. By contributing, you are expected to uphold this code. Please read the [Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/) before participating.
 
@@ -35,9 +35,10 @@ Our workflow is divided into several stages with different roles involved:
 
 ### Roles & Stages
 
-- **WG Members:** Responsible for generating issues/PRs and approving them in the Review & Approval stage.
-- **Maintainers:** Facilitate the triage process and re-evaluation before sending items for WG approval.
-- **Task Forces:** Engage in discussion and development of issues/PRs post triage.
+- **WG Members:**: Responsible for generating issues/PRs and approving them in the Review & Approval stage.
+- **Maintainers:**: Facilitate the triage process and re-evaluation before sending items for WG approval.
+- **Task Forces:**: Engage in discussion and development of issues/PRs post triage.
+- **Task Force Conveners**: Identify common ground, and fostering agreement among group members. They play the crucial role of mediator and facilitator, guiding the task force towards unified decisions by breaking deadlocks and ensuring that all voices are heard and considered.
 
 ### GitHub Workflow
 
