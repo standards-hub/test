@@ -11,7 +11,7 @@ To contribute, you must first complete the following prerequisites:
     *  Slack <a href="https://app.slack.com/client/TH7CE9HP1/C053CNCRVCL" target="_target">FOCUS-signed-members</a>, 
     * Google Groups, <a href="https://groups.google.com/" target="_blank">FOCUS Groups</a>, and 
     * GitHub <a href="https://github.com/orgs/FinOps-Open-Cost-and-Usage-Spec/repositories" target="_blank">FOCUS organization</a>. 
-        * You will receive WRITE access after sending an email to <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a>.
+    > You will receive WRITE access after sending an email to <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a>.
 
 - **Repository Access**: Key branches are restricted; only maintainers and administrators can merge content on them. While there is no need to fork this repository, you may clone it locally for command-line work. Contact <a mailto="xxxx@finops.org" target="_blank"> xxxxx@finops.org</a> for any questions.
 
@@ -28,8 +28,7 @@ Understand our workflow and contribution process:
     > **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
 
 ## Technical Specifications Life-Cycle
-
-![image](https://github.com/standards-hub/test/assets/3258579/4ca9ea87-b54f-468b-afd7-4fc33075a5ee)
+![image](https://github.com/standards-hub/test/assets/3258579/da37f18e-4883-4577-9dd3-d0bf37e96480)
 
 The Specifications Life-Cycle is a structured process that outlines the steps involved in the creation, development, approval, and publication of a set of specifications. This process ensures that the specifications are thoroughly reviewed and meet the necessary criteria before becoming publicly available. The life-cycle can be broken down into several key stages:
 
@@ -65,7 +64,7 @@ The process is iterative, with the possibility of creating new versions of the s
 ## Specification Development
 Sandwiched between the "Work Item" initiation and the "Consistency Review", the "Specification Development" phase encapsulates the entire GitHub-driven workflow. It represents a significant phase in the specification life-cycle where the proposed items are fleshed out, debated, refined and approved until they are ready for the final consistency check, ensuring alignment with the overarching goals and existing standards.
 
-![image](https://github.com/standards-hub/test/assets/3258579/a042384a-6a09-4182-9517-76642be03a90)
+![image](https://github.com/standards-hub/test/assets/3258579/4ca9ea87-b54f-468b-afd7-4fc33075a5ee)
 
 This diagram is a reference for contributors, providing a clear and organized path from the creation of items (Issues and Pull Requests) to its final Review and Approval. It emphasizes the collaborative nature of the process and the critical role of consensus in developing robust, widely-accepted standards.
 
