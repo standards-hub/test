@@ -1,12 +1,11 @@
-# Contributing to FOCUS Group Projects
-
+## Contributing to FinOps FOCUS Project
 Welcome to the FOCUS Group's Specification Development Workflow! This document outlines the process that the FOCUS Group follows using GitHub Projects to create, discuss, approve, and integrate items such as Issues and Pull Requests (PRs) into our specifications.
 
 ### Code of Conduct
 
 Our project adheres to a Code of Conduct that sets the expectations for participation in our community. By contributing, you are expected to uphold this code. Please read the [Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/) before participating.
 
-## Getting Started
+### Getting Started
 
 To contribute to our project, please follow these steps:
 
@@ -25,7 +24,7 @@ To contribute to our project, please follow these steps:
 6. Open a new PR in the main repository with a clear title and description.
 7. Participate in any discussion on your PR and make necessary changes.
 
-## Need Help?
+### Need Help?
 
 If you're unsure about where your issue or PR fits into the workflow, or if you have any questions, please don't hesitate to ask for help by creating a new issue with your questions.
 
@@ -45,7 +44,7 @@ Our workflow is divided into distinct stages, each with its own set of activitie
 >The Maintainers and the Group may change the Item labels a later stage.
 >Check with the Maintainers before directly creating a PR.
 
-#### Parking Lot
+**Parking Lot**
 - **What Happens Here:** Items that are recognized as valuable but are not immediately actionable are placed in the Parking Lot.
 - **Your Role:** If your issue is placed here, it is acknowledged but will not be actively worked on immediately. Patience is appreciated. Engage in the conversation, defend your point of view, provide additional information, and be open to feedback and alternative ideas.
 
