@@ -5,7 +5,7 @@ To contribute, you must first complete the following prerequisites:
 
 - **Sign the Contributor License Agreement (CLA)**: You must sign the FOCUS Corporate Contributor License Agreement (CLA) available at <a href="https://github.com/FinOps-Open-Cost-and-Usage-Spec/EasyCLA" target="_blank">EasyCLA</a>.
 
-> Note: FOCUS does not accommodate Individual Contributors for the CLA.
+    > Note: FOCUS does not accommodate Individual Contributors for the CLA.
 
 - **Join the Organization**: After signing the EasyCLA, our staff will invite you to join:
     *  Slack <a href="https://app.slack.com/client/TH7CE9HP1/C053CNCRVCL" target="_target">FOCUS-signed-members</a>, 
@@ -25,7 +25,7 @@ Understand our workflow and contribution process:
 - **RELEASE PLANNING.md**: FOCUS roadmap. Check upcoming release versions, schedules, and high-level feature plans.
 - **CONTRIBUTING.md**: Review this document to understand how to work on the repository.
 
-> **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
+    > **Note**: Every FOCUS repository with release material should contain the `RELEASE PLANNING.md` and `CONTRIBUTING.md` files.
 
 ## Technical Specifications Life-Cycle
 
@@ -94,7 +94,7 @@ To effectively bridge the Standards Consensus Process stages with practical appl
 
 #### Triage: 
 As the inception point within the GitHub environment, items are initially triaged by maintainers. This sorting process is essential for prioritizing tasks and streamlining the workflow.
->New Items are automatically assigned to this stage.
+    >New Items are automatically assigned to this stage.
 
 #### Parking Lot: 
 Identified by the qualifier "In & Out," this stage serves as a temporary hold for items that, while acknowledged as important, are not immediately actionable. The work on these items is paused, often due to external dependencies or strategic considerations.
