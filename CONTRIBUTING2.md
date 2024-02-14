@@ -86,3 +86,71 @@ Our workflow is divided into distinct stages, each with its own set of activitie
 - **Feedback is a Gift:** Whether positive or negative, feedback is an opportunity to improve. Embrace it.
 
 Thank you for contributing to the FOCUS Group projects. Your efforts help us to develop robust and effective specifications for the community.
+
+
+
+## Contributing to the FinOps FOCUS Project
+
+Welcome to the FOCUS Group's Specification Development Workflow! This document details the process the FOCUS Group employs using GitHub Projects to create, discuss, approve, and integrate issues and pull requests (PRs) into our specifications.
+
+### Code of Conduct
+
+Our project is committed to a Code of Conduct that establishes expectations for participation in our community. Contributors are expected to adhere to this code. Please review the [Code of Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/) before engaging.
+
+### Getting Started
+
+To contribute, please follow these steps:
+
+1. **Sign the Contributor License Agreement (CLA):** Complete the FOCUS Corporate Contributor License Agreement (CLA) at [EasyCLA](https://github.com/FinOps-Open-Cost-and-Usage-Spec/EasyCLA). Note: FOCUS does not accommodate individual CLA contributors.
+
+2. **Join the Organization:** Upon CLA completion, you'll be invited to join FOCUS resources. Details are available [here](#).
+
+3. **Understand the FOCUS Process & Workflow:** Familiarize yourself with our workflow and contribution process. More information is available [here](#).
+
+4. **Review the RELEASE PLANNING.md:** Gain an overview of the FOCUS roadmap, including upcoming release versions, schedules, and feature plans.
+
+5. **Contribute:** Start by creating a new branch for your feature or bug fix, commit your changes with descriptive messages, push to your fork on GitHub, and open a PR in the main repository with a clear title and description. Engage in discussions and update your PR as needed.
+
+### Need Help?
+
+If you have questions about where your issue or PR fits, or any other inquiries, please create a new issue with your questions.
+
+Thank you for contributing to the FinOps FOCUS project!
+
+## Workflow Overview
+
+Our workflow is structured into stages, each with specific activities and objectives:
+
+### 1. Creation & Triage:
+- **Activities:** WG members create issues and PRs for specific features and releases. Maintainers triage these to evaluate impact, urgency, and validity, deciding whether to assign a Task Force or place them in the Parking Lot.
+- **Your Role:** Propose features or report bugs through issues. For fixes or new features, create a PR. Be prepared to provide additional information and respond to comments.
+
+**Parking Lot**
+- **Activities:** Valuable but not immediately actionable items are placed here.
+- **Your Role:** Engagement and patience are key. Defend your viewpoint, provide further information, and remain open to feedback.
+
+### 2. Work In Progress
+- **Activities:** Task Forces delve into issue and PR details, focusing on problem understanding and solution exploration.
+- **Your Role:** Active participation in discussions and revisions is crucial.
+
+### 3. Review & Approval
+- **Activities:** After the Work In Progress phase, items move to Review & Approval, where WG members ensure they meet the group's standards.
+- **Your Role:** Promptly address review comments, revise your contributions, and update your PR as necessary.
+
+### 4. Merged or Closed
+- **Activities:** Approved PRs are merged, and contributions are incorporated. Unapproved items are closed.
+- **Your Role:** Celebrate merged contributions, and learn from any closures for future submissions.
+
+## Contributing Steps
+
+1. **Check Existing Items:** Verify if your concern or contribution is already addressed.
+2. **Create an Issue/PR:** Follow provided templates to create new issues or PRs if your contribution is unique.
+3. **Engage in Discussion:** Participate in Task Force discussions, providing clarifications and updates.
+4. **Implement Changes:** Work on changes in your branch and update your PR as discussions progress.
+5. **Follow Through:** Monitor your Issue/PR through the stages, responding to any feedback.
+
+## Final Notes
+
+- **Patience and Feedback:** The development process is comprehensive and may be lengthy. Patience and openness to feedback are essential.
+
+Thank you for contributing to the FOCUS Group projects. Your efforts enhance our robust and effective specifications for the community.
