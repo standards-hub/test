@@ -1,8 +1,8 @@
 # RELEASE PLANNING
 
-This document provides an overview of the planned release versions for FOCUS, their estimated release dates, and a summary of the high-level features included in each release. This serves as a roadmap for the group and the community to understand the direction and development progress of FOCUS.
+This document provides an overview of the planned release versions for {Org-Name}, their estimated release dates, and a summary of the high-level features included in each release. This serves as a roadmap for the group and the community to understand the direction and development progress of {Org-Name}.
 
-<caption>FOCUS Release Plan</caption>
+<caption>{Org-Name} Release Plan</caption>
 <table>
   <thead>
     <tr>
@@ -58,4 +58,4 @@ We welcome contributions that help us meet the planned high-level features. If y
 
 Your feedback is important to us. If you have suggestions or comments regarding the release planning, please open an issue in our repository or reach out to the project maintainers.
 
-Thank you for your support and contributions to FOCUS!
+Thank you for your support and contributions to {Org-Name}!
