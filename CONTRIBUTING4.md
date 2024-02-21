@@ -77,6 +77,12 @@ Our workflow is structured into stages, each with specific activities and object
 
 - Access the project board at [GitHub Project Link](#) to view the overall status, contributions, and pending tasks.
 
+**Creation & Triage:** WG members submit issues and PRs for evaluation, with Maintainers triaging to determine their impact, urgency, and whether to assign them to a Task Force or the Parking Lot.
+**Parking Lot:** Items deemed valuable but not immediately actionable are placed here, awaiting further engagement and eventual processing.
+**Work In Progress:** Task Forces actively discuss and refine Issues and PRs, focusing on problem-solving and solution exploration, with contributors encouraged to participate in discussions.
+**Review & Approval:** Items undergo a thorough review to ensure they meet the group's standards, with contributors expected to address comments and make necessary revisions promptly.
+**Merged or Closed:** Contributions that meet approval criteria are merged, marking their successful addition, while those that don't are closed, providing learning opportunities for future submissions.
+
 ## Release Planning
 - Please refer to the associated GitHub repository for a detailed [RELEASE PLANNING]() roadmap outlining the development process of the specification within the repo. 
 
