@@ -21,8 +21,10 @@ body:
       label: Normalized
       description: Indicate if the dimension is normalized.
       options:
-        - 'Yes'
-        - 'No'
+        - label: 'Yes'
+          value: 'yes'
+        - label: 'No'
+          value: 'no'
     validations:
       required: true
 
