@@ -14,17 +14,17 @@ body:
         - 'Attribute'
         - 'Documentation'
     validations:
-      required: true
+      required: "true"
 
   - type: checkboxes
     attributes:
       label: Normalized
       description: Indicate if the dimension is normalized.
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
-      required: true
+      required: "true"
 
   - type: textarea
     attributes:
@@ -32,7 +32,7 @@ body:
       description: Describe the issue and the changes being proposed.
       placeholder: Provide a detailed description of the spec change.
     validations:
-      required: true
+      required: "true"
 
   - type: textarea
     attributes:
@@ -40,7 +40,7 @@ body:
       description: Checklist of items that define the completion of the spec change.
       placeholder: "- Rationalize vendor-neutral, cross-cloud naming\n- Complete spec template and include naming, constraints, guidelines\n- Include principles and governance criteria for maintaining normalized dimensions"
     validations:
-      required: true
+      required: "true"
 
   - type: textarea
     attributes:
@@ -48,4 +48,4 @@ body:
       description: Provide any additional context that may help in understanding or evaluating the spec change. Include mappings between normalized values and vendor-specified values if applicable.
       placeholder: Additional context, references to other issues, or any relevant supporting information.
     validations:
-      required: false
+      required: "false"
