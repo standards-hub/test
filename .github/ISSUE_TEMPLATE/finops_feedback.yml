@@ -1,8 +1,8 @@
 name: FinOps Use Case Feedback
 description: Provide feedback on FinOps use cases that cannot be performed with the current FOCUS specification.
 title: "[FEEDBACK]: "
-labels: ["feedback", "use-case"]
-assignees: ["seanmcilroy29, jpradocueva"]
+labels: [""]
+assignees: ["mike-finopsorg,udam-f2"]
 body:
   - type: markdown
     attributes:
@@ -11,8 +11,8 @@ body:
   - type: input
     attributes:
       label: Proposed Change
-      description: Short description of the change
-      placeholder: Describe the proposed change briefly
+      description: Short description of the change and why it is necessary.
+      placeholder: Describe the proposed change briefly and why it is necessary
     validations:
       required: true
   
@@ -26,8 +26,8 @@ body:
   - type: input
     attributes:
       label: Which FinOps personas perform this use case?
-      description: List one or more FinOps personas that performs this use case
-      placeholder: e.g., Cost Analyst, Cloud Architect
+      description: List one or more FinOps personas that perform this use case
+      placeholder: e.g., Cost Analyst, Cloud Architect, etc
     validations:
       required: true
 
@@ -35,7 +35,7 @@ body:
     attributes:
       label: For which providers do you perform this use case for?
       description: List each provider separated by commas
-      placeholder: e.g., AWS, Azure, GCP, Snowflake
+      placeholder: e.g., AWS, Azure, GCP, Snowflake, etc
     validations:
       required: true
 
@@ -58,3 +58,12 @@ body:
       placeholder: Additional details...
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Data Submission for Discussion
+      description: Provide relevant sample data or data extracts that support your feedback. Ensure data is anonymized and does not include sensitive or proprietary information.
+      placeholder: Attach sample data or data extracts here. Ensure compliance with data privacy guidelines.
+    validations:
+      required: false  
+
