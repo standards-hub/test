@@ -80,12 +80,12 @@ body:
         > - **Theme**: [Theme Name, if applicable]
 
     - type: textarea
-    id: epic_theme
-    attributes:
-      label: "Epic or Theme Association"
-      description: "Provide potential epics or themes"
-      placeholder: "Your input here..."
-      value: "Provide the rational for the Epic or Theme."
+      id: epic_theme
+      attributes:
+        label: "Epic or Theme Association"
+        description: "Provide potential epics or themes"
+        placeholder: "Your input here..."
+        value: "Provide the rational for the Epic or Theme."
 
   - type: markdown
     attributes:
