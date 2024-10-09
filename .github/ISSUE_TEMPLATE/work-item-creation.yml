@@ -1,12 +1,15 @@
 name: "Work Item Issue Template"
 description: "Template for creating new work item issues"
 title: "[Work_Item ]"
-labels: ["work item"]
-assignees: ["shawnalpay, jpradocueva"]
+labels: 
+  - "work item"
+assignees: 
+  - "shawnalpay"
+  - "jpradocueva"
 body:
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## 1. **Problem Statement** *
         Describe the problem, issue, use case, or opportunity that this work item addresses.
         - **What is the problem?**: Explain the context and why it needs resolution.
@@ -18,11 +21,11 @@ body:
       label: "Problem Statement"
       description: "Provide a detailed explanation of the problem or issue."
       placeholder: "Your input here..."
-      value: "Enter the problem statement here."
+      value: ""
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## 2. **Objective** *
         State the objective of this work item. What outcome is expected?
         - **Success Criteria**: Define how success will be measured (e.g., columns, KPIs, metrics, content).
@@ -33,11 +36,11 @@ body:
       label: "Objective"
       description: "Describe the expected outcome and success criteria."
       placeholder: "Your input here..."
-      value: "Enter the objective here."
+      value: ""
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## 3. **Supporting Documentation** *
         Include links to supporting documents such as:
         - Data Examples: [Link to data or relevant files]
@@ -50,11 +53,11 @@ body:
       label: "Supporting Documentation"
       description: "Provide links to data examples, use cases, PRs, or other relevant documents."
       placeholder: "Your input here..."
-      value: "Add supporting documentation here."
+      value: ""
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## 4. **Proposed Solution / Approach**
         Outline any proposed solutions, approaches, or potential paths forward.
         - **Initial Ideas**: Describe potential solution paths, tools, or technologies.
@@ -66,11 +69,11 @@ body:
       label: "Proposed Solution / Approach"
       description: "Outline potential solutions or approaches."
       placeholder: "Your input here..."
-      value: "Enter the proposed solution here."
+      value: ""
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## 5. **Epic or Theme Association**
         > This section will be completed by the Maintainers.
         > - **Epic**: [Epic Name]
@@ -78,7 +81,7 @@ body:
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## 6. **Stakeholders** *
         List the main stakeholders for this issue.
         - **Primary Stakeholder**: [Name/Role]
@@ -90,11 +93,11 @@ body:
       label: "Stakeholders"
       description: "List the main stakeholders for this work item."
       placeholder: "Your input here..."
-      value: "List stakeholders here."
+      value: ""
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ---
         ### **Template Usage Notes**:
         1. All fields marked as **mandatory** [*] must be filled before submission.
