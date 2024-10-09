@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 1. **Problem Statement** *
+        ## 1. **Problem Statement**
         Describe the problem, issue, use case, or opportunity that this work item addresses.
         - **What is the problem?**: Explain the context and why it needs resolution.
         - **Impact**: Describe how the problem affects users, systems, or the project.
@@ -22,6 +22,8 @@ body:
       description: "Provide a detailed explanation of the problem or issue."
       placeholder: "Your input here..."
       value: "Provide details of the problem statement here."
+    validations:
+      required: true
 
   - type: markdown
     attributes:
