@@ -21,7 +21,7 @@ body:
       label: "Problem Statement"
       description: "Provide a detailed explanation of the problem or issue."
       placeholder: "Your input here..."
-      value: ""
+      value: "Provide details of the problem statement here."
 
   - type: markdown
     attributes:
@@ -36,7 +36,7 @@ body:
       label: "Objective"
       description: "Describe the expected outcome and success criteria."
       placeholder: "Your input here..."
-      value: ""
+      value: "Outline the expected outcome and success criteria."
 
   - type: markdown
     attributes:
@@ -53,7 +53,7 @@ body:
       label: "Supporting Documentation"
       description: "Provide links to data examples, use cases, PRs, or other relevant documents."
       placeholder: "Your input here..."
-      value: ""
+      value: "Include links to supporting documentation, if applicable."
 
   - type: markdown
     attributes:
@@ -69,7 +69,7 @@ body:
       label: "Proposed Solution / Approach"
       description: "Outline potential solutions or approaches."
       placeholder: "Your input here..."
-      value: ""
+      value: "Summarize the proposed solution or approach."
 
   - type: markdown
     attributes:
@@ -93,7 +93,7 @@ body:
       label: "Stakeholders"
       description: "List the main stakeholders for this work item."
       placeholder: "Your input here..."
-      value: ""
+      value: "Provide names and roles of key stakeholders."
 
   - type: markdown
     attributes:
