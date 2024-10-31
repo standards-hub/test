@@ -2,15 +2,3 @@ blank_issues_enabled: true  # Allows users to open blank issues.
 
 # Optionally, you can specify which templates are shown in the chooser
 # and add external links:
-bug_report:
-  - name: Bug Report
-    about: File a bug report using this template.
-    title: "[BUG]"
-    labels: [bug, triage]
-    assignees: [assignee_username]
-editorial:
-  - name: editorial
-    about: Feedback
-    title: "[Feedback md]"
-    labels: [bug]
-    assignees: [jpradocueva]
