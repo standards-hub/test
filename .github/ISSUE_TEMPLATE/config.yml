@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: GitHub Community Support
-    url: /feedback.md
+    file: /feedback.md
     about: Please input your details.
